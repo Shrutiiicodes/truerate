@@ -12,7 +12,13 @@ OUT = ROOT / "outputs"
 GEN = ROOT / "data" / "generated"
 
 
+_CHECKED = False
+
+
 def ensure_data():
+    global _CHECKED
+    if _CHECKED:
+        return
     required_files = [
         OUT / "audit" / "run_log.json",
         OUT / "audit" / "control_summary.csv",
@@ -33,6 +39,7 @@ def ensure_data():
         audit()
         report()
         evaluate()
+    _CHECKED = True
 
 
 def run_log() -> dict:
