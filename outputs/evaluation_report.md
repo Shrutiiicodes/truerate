@@ -94,7 +94,7 @@ Net figures hide offsetting errors (C-01 includes negative offsets; C-02 lags cu
 
 ## Runtime
 
-`{'load_seconds': 1.87, 'recalculation_seconds': 0.82, 'comparison_seconds': 0.31, 'attribution_seconds': 3.82, 'total_seconds': 7.22}`
+`{'load_seconds': 3.28, 'recalculation_seconds': 0.93, 'comparison_seconds': 0.38, 'attribution_seconds': 5.26, 'total_seconds': 10.33}`
 
 ## Weaknesses to be honest about
 

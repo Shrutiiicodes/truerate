@@ -49,7 +49,7 @@ def write_powerbi(r, cs) -> dict:
                                "fy_quarter": ["Q" + str(((m - 4) % 12) // 3 + 1) for m in months.month],
                                "is_leap_year": (months.year % 4 == 0)})
     dim_period.to_csv(PBI / "dim_period.csv", index=False)
-    (PBI / "DASHBOARD_SPEC.md").write_text(DASHBOARD_SPEC)
+    (PBI / "DASHBOARD_SPEC.md").write_text(DASHBOARD_SPEC, encoding="utf-8")
     return {"fact_exceptions": len(fact), "dim_loan": len(loans), "dim_control": len(dc) + len(extra), "dim_period": len(dim_period)}
 
 

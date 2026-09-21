@@ -123,7 +123,7 @@ def main() -> dict:
            "exception_loan_periods": int(exc[["loan_id", "period"]].drop_duplicates().shape[0]),
            "exception_loans": int(len(exc_loans)),
            "attribution_status": att["status"].value_counts().to_dict()}
-    (AUDIT_OUT / "run_log.json").write_text(json.dumps(log, indent=2, default=float))
+    (AUDIT_OUT / "run_log.json").write_text(json.dumps(log, indent=2, default=float), encoding="utf-8")
     print("\n=== Audit engine summary ===")
     print(f"Exception loan-periods: {log['exception_loan_periods']:,}; exception loans: {log['exception_loans']:,}")
     print("Attribution:", log["attribution_status"])

@@ -15,14 +15,14 @@ FORBIDDEN_IMPORTS = ["src.evaluation", "src.client_system", "evaluation", "clien
 
 def test_audit_engine_source_has_no_ground_truth_references():
     for py in AUDIT.glob("*.py"):
-        text = py.read_text()
+        text = py.read_text(encoding="utf-8")
         for bad in FORBIDDEN_TEXT:
             assert bad not in text, f"{py.name} references '{bad}'"
 
 
 def test_audit_engine_imports_are_clean():
     for py in AUDIT.glob("*.py"):
-        tree = ast.parse(py.read_text())
+        tree = ast.parse(py.read_text(encoding="utf-8"))
         for node in ast.walk(tree):
             names = []
             if isinstance(node, ast.Import):
@@ -35,8 +35,8 @@ def test_audit_engine_imports_are_clean():
 
 def test_shared_modules_do_not_expose_ground_truth():
     for py in (ROOT / "src" / "common").glob("*.py"):
-        assert "ground_truth" not in py.read_text(), f"common/{py.name} exposes ground truth"
-    assert "ground_truth" not in (ROOT / "config" / "audit.yaml").read_text()
+        assert "ground_truth" not in py.read_text(encoding="utf-8"), f"common/{py.name} exposes ground truth"
+    assert "ground_truth" not in (ROOT / "config" / "audit.yaml").read_text(encoding="utf-8")
 
 
 def test_runtime_import_graph_is_clean():

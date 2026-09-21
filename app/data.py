@@ -13,7 +13,7 @@ GEN = ROOT / "data" / "generated"
 
 
 def run_log() -> dict:
-    return json.loads((OUT / "audit" / "run_log.json").read_text())
+    return json.loads((OUT / "audit" / "run_log.json").read_text(encoding="utf-8"))
 
 
 def control_summary() -> pd.DataFrame:
@@ -50,9 +50,9 @@ def loan_contract(loan_id: str) -> dict:
 
 def evaluation_markdown() -> str:
     p = OUT / "evaluation_report.md"
-    return p.read_text() if p.exists() else "_Run `python run_all.py` to produce the evaluation report._"
+    return p.read_text(encoding="utf-8") if p.exists() else "_Run `python run_all.py` to produce the evaluation report._"
 
 
 def evaluation_json() -> dict:
     p = OUT / "evaluation_report.json"
-    return json.loads(p.read_text()) if p.exists() else {}
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}

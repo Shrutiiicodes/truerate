@@ -1,10 +1,10 @@
 {
   "timings": {
-    "load_seconds": 4.2,
+    "load_seconds": 3.28,
     "recalculation_seconds": 0.93,
-    "comparison_seconds": 0.37,
-    "attribution_seconds": 6.25,
-    "total_seconds": 12.3
+    "comparison_seconds": 0.38,
+    "attribution_seconds": 5.26,
+    "total_seconds": 10.33
   },
   "completeness": {
     "loans_in_master_file": 50000,

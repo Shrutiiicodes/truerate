@@ -33,7 +33,7 @@ def load_results() -> AuditResults:
     pop, ledger, raw = load_population()
     return AuditResults(
         cfg=load_yaml("audit.yaml"), rcm_cfg=load_yaml("rcm.yaml"),
-        log=json.loads((AUD / "run_log.json").read_text()),
+        log=json.loads((AUD / "run_log.json").read_text(encoding="utf-8")),
         exc=pd.read_parquet(AUD / "exceptions.parquet"),
         att=pd.read_csv(AUD / "exception_loans_attribution.csv"),
         alloc=pd.read_csv(AUD / "impact_by_control.csv"),

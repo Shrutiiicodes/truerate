@@ -26,7 +26,7 @@ def write_materiality_md(mat, cs):
          "| Control | Net FY (INR) | Gross FY (INR) | Classification |", "|---|---|---|---|"]
     for c in cs.itertuples():
         L.append(f"| {c.control_id} {c.control_name} | {c.impact_net_fy_inr:,.2f} | {c.impact_gross_fy_inr:,.2f} | {c.deficiency_classification} |")
-    (OUTPUTS / "materiality_summary.md").write_text("\n".join(L))
+    (OUTPUTS / "materiality_summary.md").write_text("\n".join(L), encoding="utf-8")
 
 
 def main():

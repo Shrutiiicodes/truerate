@@ -70,7 +70,7 @@ def main() -> dict:
     correct = pd.read_parquet(GT / "correct_ledger.parquet")
     exc = pd.read_parquet(AUD / "exceptions.parquet")
     att = pd.read_csv(AUD / "exception_loans_attribution.csv")
-    run_log = json.loads((AUD / "run_log.json").read_text())
+    run_log = json.loads((AUD / "run_log.json").read_text(encoding="utf-8"))
     expected = pd.read_parquet(AUD / "expected_ledger.parquet")
     system = load_table("system_interest_ledger")
 
@@ -186,7 +186,7 @@ def main() -> dict:
         "runtime_seconds": run_log["timings"],
     }
     OUTPUTS.mkdir(exist_ok=True)
-    (OUTPUTS / "evaluation_report.json").write_text(json.dumps(report, indent=2, default=str))
+    (OUTPUTS / "evaluation_report.json").write_text(json.dumps(report, indent=2, default=str), encoding="utf-8")
     conf.to_csv(OUTPUTS / "evaluation_confusion_matrix.csv")
     write_markdown(report, conf, tol)
     sensitivity_chart(sens)
@@ -236,9 +236,13 @@ def write_markdown(r, conf, tol):
           f"- Detected truly-faulty loans: {at['detected_true_faulty_loans']:,}",
           f"- Exact-match accuracy (attributed control set = injected control set): {pct(at['exact_match_accuracy'])}",
           f"- Single-fault loans: {pct(at['single_fault_accuracy'])}; double-fault loans: {pct(at['double_fault_accuracy'])}",
-          f"- Status counts: {at['status_counts']}; ambiguous share {pct(at['ambiguous_share'])}, unexplained share {pct(at['unexplained_share'])}", "",
-          "### Confusion matrix (rows: injected fault, columns: attributed; pairs grouped as PAIR)", "",
-          conf.to_markdown(), "", "### Every miss, explained", ""]
+          f"- Status counts: {at['status_counts']}; ambiguous share {pct(at['ambiguous_share'])}, unexplained share {pct(at['unexplained_share'])}"]
+    try:
+        conf_md = conf.to_markdown()
+    except Exception:
+        conf_md = f"```\n{conf.to_string()}\n```"
+    L += ["", "### Confusion matrix (rows: injected fault, columns: attributed; pairs grouped as PAIR)", "",
+          conf_md, "", "### Every miss, explained", ""]
     if not r["misses_explained"]:
         L.append("None.")
     for m in r["misses_explained"]:
@@ -284,7 +288,7 @@ def write_markdown(r, conf, tol):
           "- Synthetic data is too clean: zero false positives will not hold on a real core banking extract.",
           "- Faults with no numeric effect (e.g. a reset lag during a flat rate period) cannot be detected by any "
           "recalculation; they need a configuration review (ITGC / parameter testing)."]
-    (OUTPUTS / "evaluation_report.md").write_text("\n".join(L))
+    (OUTPUTS / "evaluation_report.md").write_text("\n".join(L), encoding="utf-8")
 
 
 if __name__ == "__main__":
