@@ -1,6 +1,6 @@
 """ITAC interest testing - results viewer.
 
-Run:  streamlit run app/streamlit_app.py   (after `python run_all.py`)
+Run:  python -m streamlit run app/streamlit_app.py   (after `python run_all.py`)
 """
 from __future__ import annotations
 import streamlit as st

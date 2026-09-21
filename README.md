@@ -114,7 +114,7 @@ The wrong-rate hypothesis (C-01) does not scan a grid of offsets, which would am
 pip install -r requirements.txt
 python run_all.py                  # all stages; add --pause to stop at each checkpoint
 python -m pytest -q tests          # 29 tests
-streamlit run app/streamlit_app.py # browse RCM, filter exceptions, drill into a loan, view evaluation
+python -m streamlit run app/streamlit_app.py # browse RCM, filter exceptions, drill into a loan, view evaluation
 ```
 
 `make all | test | app | clean` do the same. Python 3.11+, fixed seeds, so every number above is reproducible.
