@@ -12,7 +12,31 @@ OUT = ROOT / "outputs"
 GEN = ROOT / "data" / "generated"
 
 
+def ensure_data():
+    required_files = [
+        OUT / "audit" / "run_log.json",
+        OUT / "audit" / "control_summary.csv",
+        OUT / "audit" / "exception_loans_attribution.csv",
+        OUT / "audit" / "exceptions.parquet",
+        OUT / "audit" / "expected_ledger.parquet",
+        GEN / "loans.parquet",
+        GEN / "system_interest_ledger.parquet",
+    ]
+    if any(not p.exists() for p in required_files):
+        from src.generator.run import main as generate
+        from src.client_system.run import main as client
+        from src.audit_engine.run import main as audit
+        from src.reporting.run import main as report
+        from src.evaluation.evaluate import main as evaluate
+        generate()
+        client()
+        audit()
+        report()
+        evaluate()
+
+
 def run_log() -> dict:
+    ensure_data()
     return json.loads((OUT / "audit" / "run_log.json").read_text(encoding="utf-8"))
 
 

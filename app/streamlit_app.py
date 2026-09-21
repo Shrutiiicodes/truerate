@@ -12,6 +12,7 @@ st.set_page_config(page_title="ITAC - Loan interest testing", layout="wide")
 
 @st.cache_data
 def _load():
+    D.ensure_data()
     return D.run_log(), D.control_summary(), D.attribution(), D.exceptions()
 
 
