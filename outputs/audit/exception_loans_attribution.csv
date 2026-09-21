@@ -1,0 +1,1417 @@
+loan_id,product_code,status,control_ids,matching_hypotheses,implied_rate_offset_pct,interest_misstatement_inr,penal_misstatement_inr,closing_balance_diff_inr,exception_periods,first_exception_period,last_exception_period
+LN0000058,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-18169.38,0.0,-18169.38,30,2023-01,2025-06
+LN0000061,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-6792.31,0.0,-6792.31,36,2022-07,2025-06
+LN0000091,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-6298.42,0.0,-6298.42,36,2022-07,2025-06
+LN0000121,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,11789.01,0.0,11789.01,53,2021-02,2025-06
+LN0000122,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-125.44,0.0,-125.44,44,2021-01,2025-05
+LN0000136,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,861.88,0.0,861.88,18,2024-01,2025-06
+LN0000175,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-20834.58,0.0,-20834.58,30,2023-01,2025-06
+LN0000179,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),-0.25,-45310.69,0.0,-45310.69,54,2021-01,2025-06
+LN0000245,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,9151.4,0.0,9151.4,53,2021-02,2025-06
+LN0000248,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14585.42,0.0,14585.42,21,2023-10,2025-06
+LN0000271,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-47.91,0.0,-47.91,3,2021-01,2021-03
+LN0000292,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,7894.42,0.0,7894.42,14,2021-02,2022-03
+LN0000316,GL-FIX,Attributed,C-08,C-08 accrual after closure,,696.16,0.0,696.16,1,2021-02,2021-02
+LN0000384,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-76403.03,0.0,-76403.03,30,2023-01,2025-06
+LN0000387,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,694.74,0.0,694.74,1,2023-05,2023-05
+LN0000419,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-117.57,0.0,-117.57,47,2021-02,2025-06
+LN0000428,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,8709.02,-1000.0,7709.02,8,2024-11,2025-06
+LN0000458,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,21590.84,0.0,21590.84,21,2023-10,2025-06
+LN0000513,PL-FIX,Attributed,C-08,C-08 accrual after closure,,1566.06,0.0,1566.06,1,2021-05,2021-05
+LN0000552,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,150.52,0.0,150.52,39,2021-01,2024-03
+LN0000586,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,235.7,0.0,235.7,13,2021-01,2022-01
+LN0000600,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-53622.61,0.0,-53622.61,36,2022-07,2025-06
+LN0000627,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,397.49,0.0,397.49,18,2024-01,2025-06
+LN0000652,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,612.69,0.0,612.69,18,2024-01,2025-06
+LN0000661,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,40.6,0.0,40.6,54,2021-01,2025-06
+LN0000683,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,15502.41,0.0,15502.41,53,2021-02,2025-06
+LN0000704,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,333.47,0.0,333.47,37,2021-01,2024-01
+LN0000715,HL-FLT,Attributed,C-05+C-07,C-05 penal interest +2.0% on rate + C-07 stale pre-change spread,,13479.28,-750.0,12729.28,21,2023-10,2025-06
+LN0000746,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,865.35,0.0,865.35,25,2021-01,2023-01
+LN0000748,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,35.74,0.0,35.74,13,2021-01,2022-01
+LN0000826,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-30.31,0.0,-30.31,25,2021-01,2023-01
+LN0000830,GL-FIX,Attributed,C-08,C-08 accrual after closure,,669.3,0.0,669.3,1,2021-03,2021-03
+LN0000849,MSME-FLT,Attributed,C-05+C-09,C-05 penal charge capitalised + C-09 365-day basis in leap year,,144.32,0.0,144.32,18,2024-01,2025-06
+LN0000877,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9997.14,0.0,9997.14,21,2023-10,2025-06
+LN0000887,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,147.01,0.0,147.01,18,2024-01,2025-06
+LN0000894,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,89.93,0.0,89.93,49,2021-01,2025-01
+LN0001009,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,5.7,0.0,5.7,7,2024-07,2025-01
+LN0001025,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,33829.91,0.0,33829.91,21,2023-10,2025-06
+LN0001095,HL-FLT,Attributed,C-05,C-05 penal interest +1.0% on rate | C-05 penal interest +2.0% on rate | C-05 penal interest +3.0% on rate,,0.0,-750.0,-750.0,1,2025-06,2025-06
+LN0001109,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,12760.62,0.0,12760.62,1,2025-03,2025-03
+LN0001124,PL-FIX,Attributed,C-08,C-08 accrual after closure,,1137.27,0.0,1137.27,1,2021-06,2021-06
+LN0001145,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,28.6,0.0,28.6,48,2021-03,2025-06
+LN0001151,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,16.4,0.0,16.4,54,2021-01,2025-06
+LN0001203,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,390.12,0.0,390.12,25,2021-01,2023-01
+LN0001220,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,13008.6,0.0,13008.6,52,2021-03,2025-06
+LN0001292,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-18734.73,0.0,-18734.73,35,2022-08,2025-06
+LN0001457,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,39751.6,0.0,39751.6,20,2023-11,2025-06
+LN0001470,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,2744.84,-1000.0,1744.84,4,2025-03,2025-06
+LN0001531,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-50.98,0.0,-50.98,47,2021-02,2025-06
+LN0001564,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,19184.18,0.0,19184.18,20,2023-11,2025-06
+LN0001653,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,13070.2,0.0,13070.2,52,2021-03,2025-06
+LN0001655,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,265.32,0.0,265.32,18,2024-01,2025-06
+LN0001660,MSME-FLT,Attributed,C-04+C-09,C-04 moratorium interest compounded + C-09 365-day basis in leap year,,1263.91,0.0,1263.91,52,2021-03,2025-06
+LN0001678,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,44511.29,0.0,44511.29,53,2021-02,2025-06
+LN0001729,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1.81,0.0,1.81,1,2024-01,2024-01
+LN0001760,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6410.06,0.0,6410.06,20,2023-11,2025-06
+LN0001941,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,160.11,0.0,160.11,18,2024-01,2025-06
+LN0001948,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,366.54,0.0,366.54,13,2021-02,2022-02
+LN0002009,HL-FLT,Attributed,C-06+C-07,C-06 daily rounding to 0dp + C-07 stale pre-change spread,,17469.47,0.0,17469.47,50,2021-02,2025-06
+LN0002021,PL-FIX,Attributed,C-03+C-06,C-03 30E/360 day-count + C-06 daily rounding to 0dp,,1179.39,0.0,1179.39,14,2021-02,2022-03
+LN0002024,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-0.04,0.0,-0.04,10,2021-04,2022-02
+LN0002029,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,239.47,0.0,239.47,10,2021-02,2021-11
+LN0002063,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-1175.63,0.0,-1175.63,13,2021-02,2022-02
+LN0002122,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12349.77,0.0,12349.77,20,2023-11,2025-06
+LN0002131,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,36.8,0.0,36.8,24,2021-02,2025-02
+LN0002242,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,20402.57,0.0,20402.57,20,2023-11,2025-06
+LN0002245,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,76067.97,0.0,76067.97,52,2021-03,2025-06
+LN0002452,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13538.07,0.0,13538.07,19,2023-12,2025-06
+LN0002464,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,63.22,0.0,63.22,48,2021-03,2025-06
+LN0002491,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,10009.7,0.0,10009.7,36,2021-03,2024-02
+LN0002516,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,17297.89,0.0,17297.89,19,2023-12,2025-06
+LN0002563,MSME-FLT,Attributed,C-02+C-09,C-02 reset one cycle late + C-09 365-day basis in leap year,,-13174.0,0.0,-13174.0,37,2022-06,2025-06
+LN0002676,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,38884.51,0.0,38884.51,19,2023-12,2025-06
+LN0002710,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-15176.89,0.0,-15176.89,37,2022-06,2025-06
+LN0002750,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,171.92,0.0,171.92,39,2021-03,2025-06
+LN0002793,MSME-FLT,Attributed,C-04+C-09,C-04 moratorium interest compounded + C-09 365-day basis in leap year,,653.84,0.0,653.84,40,2021-04,2024-07
+LN0002802,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-168.22,0.0,-168.22,37,2021-03,2024-03
+LN0002812,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-200.81,0.0,-200.81,48,2021-03,2025-06
+LN0002843,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,40.11,0.0,40.11,35,2021-03,2024-03
+LN0002852,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,30611.28,0.0,30611.28,51,2021-04,2025-06
+LN0002873,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2947.63,0.0,2947.63,29,2021-04,2023-08
+LN0002897,GL-FIX,Attributed,C-08,C-08 accrual after closure,,462.0,0.0,462.0,1,2021-12,2021-12
+LN0002961,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-14937.71,0.0,-14937.71,10,2022-06,2023-03
+LN0002972,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,9.83,0.0,9.83,2,2024-08,2024-09
+LN0003067,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,20.82,0.0,20.82,3,2024-01,2024-03
+LN0003068,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-38.61,0.0,-38.61,48,2021-03,2025-06
+LN0003072,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1001.49,0.0,1001.49,18,2024-01,2025-06
+LN0003120,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-254.95,0.0,-254.95,31,2021-03,2023-09
+LN0003208,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-95.98,0.0,-95.98,37,2021-03,2024-03
+LN0003214,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,57.96,0.0,57.96,46,2021-03,2025-06
+LN0003275,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,23.87,0.0,23.87,49,2021-03,2025-03
+LN0003322,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,113.86,0.0,113.86,52,2021-03,2025-06
+LN0003324,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-673.19,0.0,-673.19,49,2021-03,2025-03
+LN0003360,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,1300.61,0.0,1300.61,52,2021-03,2025-06
+LN0003364,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-179.96,0.0,-179.96,13,2021-03,2022-03
+LN0003365,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,154.97,0.0,154.97,7,2021-03,2021-09
+LN0003380,HL-FLT,Attributed,C-08,C-08 accrual after closure,,17691.24,0.0,17691.24,1,2023-08,2023-08
+LN0003413,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-19.41,0.0,-19.41,45,2021-04,2025-06
+LN0003455,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,14647.84,0.0,14647.84,52,2021-03,2025-06
+LN0003472,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,426.18,0.0,426.18,13,2021-03,2022-03
+LN0003503,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-104.34,0.0,-104.34,13,2021-03,2022-03
+LN0003526,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,91.96,0.0,91.96,33,2021-06,2024-04
+LN0003531,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,810.45,0.0,810.45,50,2021-05,2025-06
+LN0003538,GL-FIX,Attributed,C-08,C-08 accrual after closure,,640.24,0.0,640.24,1,2021-10,2021-10
+LN0003564,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,144.36,0.0,144.36,18,2024-01,2025-06
+LN0003593,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,145570.6,0.0,145570.6,51,2021-04,2025-06
+LN0003611,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,13907.57,0.0,13907.57,51,2021-04,2025-06
+LN0003629,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,73.71,0.0,73.71,7,2021-04,2021-10
+LN0003631,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,18618.86,0.0,18618.86,21,2023-10,2025-06
+LN0003706,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-6919.7,0.0,-6919.7,36,2022-07,2025-06
+LN0003744,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,5.97,0.0,5.97,2,2025-04,2025-05
+LN0003757,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,3752.13,-1000.0,2752.13,9,2024-10,2025-06
+LN0003818,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-44796.03,0.0,-44796.03,27,2023-04,2025-06
+LN0003821,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,1766.31,0.0,1766.31,1,2023-05,2023-05
+LN0003917,GL-FIX,Attributed,C-01+C-08,C-01 wrong spread (implied) + C-08 accrual after closure,-0.25,631.92,0.0,631.92,9,2021-04,2021-12
+LN0004031,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,395.16,0.0,395.16,18,2024-01,2025-06
+LN0004076,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,21682.06,0.0,21682.06,51,2021-04,2025-06
+LN0004104,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12942.03,0.0,12942.03,21,2023-10,2025-06
+LN0004106,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,16923.52,0.0,16923.52,51,2021-04,2025-06
+LN0004107,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-16394.15,0.0,-16394.15,36,2022-07,2025-06
+LN0004132,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-87.06,0.0,-87.06,8,2021-04,2021-11
+LN0004162,MSME-FLT,Attributed,C-04+C-08,C-04 moratorium interest compounded + C-08 accrual after closure,,1467.05,0.0,1467.05,37,2021-05,2024-05
+LN0004275,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-41037.59,0.0,-41037.59,27,2023-04,2025-06
+LN0004339,PL-FIX,Attributed,C-08,C-08 accrual after closure,,785.35,0.0,785.35,1,2022-09,2022-09
+LN0004362,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,15456.64,0.0,15456.64,21,2023-10,2025-06
+LN0004410,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,1799.55,0.0,1799.55,1,2022-03,2022-03
+LN0004470,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-26958.19,0.0,-26958.19,36,2022-07,2025-06
+LN0004527,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-118.12,0.0,-118.12,13,2021-04,2022-04
+LN0004586,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,8799.29,0.0,8799.29,50,2021-05,2025-06
+LN0004595,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,334.16,-1000.0,-665.84,9,2024-10,2025-06
+LN0004618,HL-FLT,Attributed,C-08,C-08 accrual after closure,,9072.3,0.0,9072.3,1,2023-11,2023-11
+LN0004630,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,97521.76,0.0,97521.76,51,2021-04,2025-06
+LN0004656,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-63.37,0.0,-63.37,49,2021-04,2025-04
+LN0004659,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-225.58,0.0,-225.58,51,2021-04,2025-06
+LN0004682,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,26415.09,0.0,26415.09,21,2023-10,2025-06
+LN0004697,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-116.06,0.0,-116.06,25,2021-04,2023-04
+LN0004747,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3128.0,0.0,3128.0,49,2021-06,2025-06
+LN0004769,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-185.64,0.0,-185.64,49,2021-05,2025-05
+LN0004773,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-205.92,0.0,-205.92,19,2021-05,2022-11
+LN0004783,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-129.65,0.0,-129.65,38,2021-08,2025-06
+LN0004907,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,262.0,0.0,262.0,18,2024-01,2025-06
+LN0004918,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-869.12,0.0,-869.12,13,2021-05,2022-05
+LN0004921,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-989.6,0.0,-989.6,13,2021-05,2022-05
+LN0004965,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,22.99,0.0,22.99,5,2025-01,2025-05
+LN0005023,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-171.33,0.0,-171.33,14,2021-05,2022-06
+LN0005036,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,7675.33,0.0,7675.33,20,2023-11,2025-06
+LN0005053,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,947.99,0.0,947.99,18,2024-01,2025-06
+LN0005072,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,5283.14,0.0,5283.14,20,2023-11,2025-06
+LN0005079,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-39171.51,0.0,-39171.51,26,2023-05,2025-06
+LN0005084,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,46.47,0.0,46.47,18,2024-01,2025-06
+LN0005111,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12725.39,0.0,12725.39,18,2023-11,2025-04
+LN0005114,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-34851.73,0.0,-34851.73,38,2022-05,2025-06
+LN0005212,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,12.06,0.0,12.06,3,2024-09,2024-11
+LN0005221,HL-MCLR,Attributed,C-05,C-05 penal interest +2.0% on rate,,6501.98,-750.0,5751.98,7,2024-12,2025-06
+LN0005223,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,945.56,0.0,945.56,18,2024-01,2025-06
+LN0005311,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,3687.57,0.0,3687.57,1,2023-03,2023-03
+LN0005383,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-24105.55,0.0,-24105.55,38,2022-05,2025-06
+LN0005436,PL-FIX,Attributed,C-08,C-08 accrual after closure,,574.93,0.0,574.93,1,2022-08,2022-08
+LN0005464,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,8.67,0.0,8.67,5,2024-01,2024-05
+LN0005500,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,5278.36,0.0,5278.36,20,2023-11,2025-06
+LN0005512,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,104.44,0.0,104.44,5,2024-01,2024-05
+LN0005518,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,11.11,0.0,11.11,49,2021-05,2025-06
+LN0005541,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-32905.97,0.0,-32905.97,38,2022-05,2025-06
+LN0005562,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,8955.49,0.0,8955.49,50,2021-05,2025-06
+LN0005631,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-24766.4,0.0,-24766.4,26,2023-05,2025-06
+LN0005651,GL-FIX,Attributed,C-08,C-08 accrual after closure,,328.37,0.0,328.37,1,2021-08,2021-08
+LN0005655,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-24025.36,0.0,-24025.36,36,2021-05,2024-04
+LN0005681,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,24.83,0.0,24.83,9,2021-06,2022-02
+LN0005757,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-155.71,0.0,-155.71,37,2021-05,2024-05
+LN0005777,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,28.47,0.0,28.47,12,2021-06,2022-06
+LN0005815,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-123487.46,0.0,-123487.46,38,2022-05,2025-06
+LN0005817,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9558.32,0.0,9558.32,20,2023-11,2025-06
+LN0005830,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-10632.36,0.0,-10632.36,38,2022-05,2025-06
+LN0005878,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,2.06,0.0,2.06,1,2024-01,2024-01
+LN0005892,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-100.7,0.0,-100.7,28,2021-05,2023-08
+LN0005910,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-108289.87,0.0,-108289.87,50,2021-05,2025-06
+LN0005994,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,4640.41,-750.0,3890.41,3,2025-04,2025-06
+LN0006021,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-125.28,0.0,-125.28,49,2021-06,2025-06
+LN0006071,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-45.02,0.0,-45.02,13,2021-06,2022-06
+LN0006105,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-940.41,0.0,-940.41,25,2021-06,2023-06
+LN0006247,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-12873.85,0.0,-12873.85,37,2021-06,2024-06
+LN0006320,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,5171.41,0.0,5171.41,48,2021-07,2025-06
+LN0006353,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,4770.76,0.0,4770.76,48,2021-07,2025-06
+LN0006361,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,11273.35,0.0,11273.35,19,2023-12,2025-06
+LN0006370,MSME-FLT,Attributed,C-04+C-06,C-04 moratorium interest compounded + C-06 daily rounding to 0dp,,1083.14,0.0,1083.14,49,2021-06,2025-06
+LN0006374,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,6398.2,0.0,6398.2,1,2024-09,2024-09
+LN0006404,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,3526.07,-1000.0,2526.07,7,2024-12,2025-06
+LN0006428,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,6739.5,0.0,6739.5,49,2021-06,2025-06
+LN0006431,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,210.41,0.0,210.41,32,2021-06,2025-03
+LN0006471,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-61640.08,0.0,-61640.08,25,2023-06,2025-06
+LN0006574,PL-FIX,Attributed,C-03+C-08,C-03 30E/360 day-count + C-08 accrual after closure,,990.08,0.0,990.08,5,2021-06,2021-10
+LN0006586,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12352.74,0.0,12352.74,19,2023-12,2025-06
+LN0006642,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-53675.32,0.0,-53675.32,49,2021-06,2025-06
+LN0006729,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-134.15,0.0,-134.15,25,2021-06,2023-06
+LN0006843,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,515.47,0.0,515.47,48,2021-07,2025-06
+LN0006849,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-36.02,0.0,-36.02,24,2021-06,2023-06
+LN0006912,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-21741.97,0.0,-21741.97,49,2021-06,2025-06
+LN0006915,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-15726.32,0.0,-15726.32,37,2022-06,2025-06
+LN0006922,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,44.65,0.0,44.65,40,2021-08,2025-06
+LN0006941,PL-FIX,Attributed,C-08,C-08 accrual after closure,,337.72,0.0,337.72,1,2023-04,2023-04
+LN0006960,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-11233.67,0.0,-11233.67,37,2022-06,2025-06
+LN0006963,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,15959.5,0.0,15959.5,48,2021-07,2025-06
+LN0007089,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,2336.96,0.0,2336.96,5,2023-12,2024-04
+LN0007131,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,30395.01,0.0,30395.01,19,2023-12,2025-06
+LN0007192,PL-FIX,Attributed,C-08,C-08 accrual after closure,,683.35,0.0,683.35,1,2022-08,2022-08
+LN0007213,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,6.08,0.0,6.08,2,2024-09,2024-10
+LN0007223,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,89.25,0.0,89.25,7,2024-01,2024-07
+LN0007240,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-12185.86,0.0,-12185.86,36,2022-07,2025-06
+LN0007272,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,12925.26,0.0,12925.26,47,2021-08,2025-06
+LN0007295,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-302.37,0.0,-302.37,48,2021-07,2025-06
+LN0007307,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,11565.88,0.0,11565.88,21,2023-10,2025-06
+LN0007443,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,107.22,0.0,107.22,7,2024-01,2024-07
+LN0007454,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-182.69,0.0,-182.69,48,2021-07,2025-06
+LN0007459,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,252.34,0.0,252.34,7,2021-07,2022-01
+LN0007463,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-82.26,0.0,-82.26,7,2021-07,2022-01
+LN0007477,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,8167.61,0.0,8167.61,47,2021-08,2025-06
+LN0007481,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,109.45,0.0,109.45,45,2021-07,2025-06
+LN0007510,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,17227.3,0.0,17227.3,47,2021-08,2025-06
+LN0007544,GL-FIX,Attributed,C-08,C-08 accrual after closure,,777.71,0.0,777.71,1,2021-10,2021-10
+LN0007557,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-69202.81,0.0,-69202.81,36,2022-07,2025-06
+LN0007562,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,8498.44,0.0,8498.44,21,2023-10,2025-06
+LN0007615,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,71.26,0.0,71.26,18,2024-01,2025-06
+LN0007655,PL-FIX,Attributed,C-08,C-08 accrual after closure,,2069.47,0.0,2069.47,1,2021-12,2021-12
+LN0007683,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,69.88,0.0,69.88,16,2021-07,2022-10
+LN0007691,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,2548.65,0.0,2548.65,48,2021-07,2025-06
+LN0007736,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-187.12,0.0,-187.12,48,2021-07,2025-06
+LN0007780,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,5707.13,0.0,5707.13,19,2021-08,2023-02
+LN0007817,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-6790.56,0.0,-6790.56,25,2022-07,2024-07
+LN0007819,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,12625.39,0.0,12625.39,37,2021-07,2024-07
+LN0007858,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,476.31,0.0,476.31,12,2024-01,2024-12
+LN0007861,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,199.6,0.0,199.6,18,2024-01,2025-06
+LN0007886,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9637.75,0.0,9637.75,21,2023-10,2025-06
+LN0007964,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-24644.63,0.0,-24644.63,5,2022-07,2022-11
+LN0007977,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-80.38,0.0,-80.38,38,2021-08,2025-06
+LN0008002,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,6351.93,0.0,6351.93,17,2021-08,2022-12
+LN0008045,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,31.81,0.0,31.81,33,2021-07,2025-04
+LN0008055,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,162.93,0.0,162.93,5,2024-01,2024-05
+LN0008106,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-40.38,0.0,-40.38,25,2021-07,2023-07
+LN0008336,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,18799.99,0.0,18799.99,20,2023-11,2025-06
+LN0008353,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,910.53,0.0,910.53,18,2024-01,2025-06
+LN0008358,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-1589.1,0.0,-1589.1,37,2021-08,2024-08
+LN0008372,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14712.84,0.0,14712.84,20,2023-11,2025-06
+LN0008423,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-6745.04,0.0,-6745.04,35,2022-08,2025-06
+LN0008431,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-42.18,0.0,-42.18,47,2021-08,2025-06
+LN0008513,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-1563.44,0.0,-1563.44,26,2021-08,2023-09
+LN0008589,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-120.8,0.0,-120.8,13,2021-08,2022-08
+LN0008610,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,128.55,0.0,128.55,41,2021-08,2025-06
+LN0008617,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-11960.02,0.0,-11960.02,38,2022-05,2025-06
+LN0008620,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-19417.68,0.0,-19417.68,38,2022-05,2025-06
+LN0008629,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-66.34,0.0,-66.34,43,2021-08,2025-02
+LN0008660,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-538.63,0.0,-538.63,47,2021-08,2025-06
+LN0008673,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3158.52,0.0,3158.52,46,2021-09,2025-06
+LN0008687,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,16547.48,0.0,16547.48,20,2023-11,2025-06
+LN0008701,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,9.37,0.0,9.37,8,2021-08,2022-03
+LN0008708,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2577.68,0.0,2577.68,46,2021-09,2025-06
+LN0008716,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-125862.43,0.0,-125862.43,23,2023-08,2025-06
+LN0008753,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,42861.16,0.0,42861.16,20,2023-11,2025-06
+LN0008816,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,10904.69,0.0,10904.69,1,2022-04,2022-04
+LN0008820,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-55.6,0.0,-55.6,25,2021-08,2023-08
+LN0008821,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-50.16,0.0,-50.16,18,2021-08,2023-01
+LN0008831,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14648.17,0.0,14648.17,20,2023-11,2025-06
+LN0008835,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3021.7,0.0,3021.7,46,2021-09,2025-06
+LN0008889,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-30426.57,0.0,-30426.57,38,2022-05,2025-06
+LN0008896,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-17522.5,0.0,-17522.5,38,2022-05,2025-06
+LN0008899,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,1944.77,0.0,1944.77,47,2021-08,2025-06
+LN0008901,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-56.02,0.0,-56.02,37,2021-08,2024-08
+LN0008921,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,21418.37,0.0,21418.37,17,2023-11,2025-03
+LN0008962,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.25,49101.14,0.0,49101.14,47,2021-08,2025-06
+LN0008975,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,376.3,0.0,376.3,34,2021-08,2024-05
+LN0009006,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1229.39,0.0,1229.39,46,2021-09,2025-06
+LN0009039,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,3714.1,0.0,3714.1,46,2021-09,2025-06
+LN0009045,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,105.01,0.0,105.01,5,2024-01,2024-05
+LN0009072,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,19098.3,0.0,19098.3,20,2023-11,2025-06
+LN0009083,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,552.21,0.0,552.21,18,2024-01,2025-06
+LN0009130,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-84.9,0.0,-84.9,13,2021-08,2022-08
+LN0009170,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-100.11,0.0,-100.11,5,2021-08,2021-12
+LN0009238,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-36.69,0.0,-36.69,23,2021-08,2023-06
+LN0009253,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,15715.49,0.0,15715.49,20,2023-11,2025-06
+LN0009347,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,15917.2,0.0,15917.2,20,2023-11,2025-06
+LN0009351,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3847.33,0.0,3847.33,46,2021-09,2025-06
+LN0009419,PL-FIX,Attributed,C-08,C-08 accrual after closure,,721.65,0.0,721.65,1,2022-06,2022-06
+LN0009439,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,10561.9,0.0,10561.9,1,2023-09,2023-09
+LN0009529,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,18920.25,0.0,18920.25,45,2021-10,2025-06
+LN0009578,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,55935.11,0.0,55935.11,46,2021-09,2025-06
+LN0009588,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,335.02,0.0,335.02,18,2024-01,2025-06
+LN0009614,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,7062.08,0.0,7062.08,19,2023-12,2025-06
+LN0009676,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,37.47,0.0,37.47,9,2024-01,2024-09
+LN0009729,GL-FIX,Attributed,C-08,C-08 accrual after closure,,2211.0,0.0,2211.0,1,2021-10,2021-10
+LN0009770,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,84287.42,0.0,84287.42,46,2021-09,2025-06
+LN0009782,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,869.52,0.0,869.52,9,2024-01,2024-09
+LN0009791,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,1073.23,0.0,1073.23,25,2021-09,2023-09
+LN0009886,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,5521.2,-750.0,4771.2,12,2024-07,2025-06
+LN0009939,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,96.88,0.0,96.88,8,2021-09,2022-04
+LN0009974,HL-FLT,Attributed,C-08,C-08 accrual after closure,,4763.84,0.0,4763.84,1,2022-10,2022-10
+LN0009980,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9048.38,0.0,9048.38,19,2023-12,2025-06
+LN0009987,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,316.64,0.0,316.64,18,2024-01,2025-06
+LN0010021,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,6.12,0.0,6.12,2,2024-12,2025-01
+LN0010023,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.5,71929.09,0.0,71929.09,46,2021-09,2025-06
+LN0010085,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1708.9,0.0,1708.9,45,2021-10,2025-06
+LN0010102,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1433.78,0.0,1433.78,18,2024-01,2025-06
+LN0010134,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,18928.16,0.0,18928.16,46,2021-09,2025-06
+LN0010204,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,24286.44,0.0,24286.44,19,2023-12,2025-06
+LN0010257,MSME-FLT,Attributed,C-05+C-09,C-05 penal charge capitalised + C-09 365-day basis in leap year,,238.47,0.0,238.47,18,2024-01,2025-06
+LN0010261,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,197.26,-1000.0,-802.74,3,2025-04,2025-06
+LN0010278,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,21070.26,0.0,21070.26,19,2023-12,2025-06
+LN0010373,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,30006.5,0.0,30006.5,33,2021-09,2024-05
+LN0010399,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,9.0,0.0,9.0,2,2021-09,2021-10
+LN0010410,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,2179.85,-750.0,1429.85,10,2024-09,2025-06
+LN0010414,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,5.59,0.0,5.59,2,2025-05,2025-06
+LN0010469,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,19781.17,0.0,19781.17,46,2021-09,2025-06
+LN0010490,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,71.73,0.0,71.73,7,2021-09,2022-03
+LN0010508,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,366.94,0.0,366.94,18,2024-01,2025-06
+LN0010579,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-30.62,0.0,-30.62,46,2021-09,2025-06
+LN0010598,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,23187.01,0.0,23187.01,46,2021-09,2025-06
+LN0010621,PL-FIX,Attributed,C-08,C-08 accrual after closure,,1403.7,0.0,1403.7,1,2022-11,2022-11
+LN0010709,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.35,0.0,6.35,2,2025-05,2025-06
+LN0010719,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,88.82,0.0,88.82,10,2021-10,2022-07
+LN0010724,HL-FLT,Attributed,C-02+C-07,C-02 reset one cycle late + C-07 stale pre-change spread,,-5397.19,0.0,-5397.19,36,2022-07,2025-06
+LN0010773,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,9347.67,0.0,9347.67,44,2021-11,2025-06
+LN0010780,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-47.82,0.0,-47.82,45,2021-10,2025-06
+LN0010796,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9094.23,0.0,9094.23,21,2023-10,2025-06
+LN0010801,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,9386.64,0.0,9386.64,44,2021-11,2025-06
+LN0010804,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-4659.47,0.0,-4659.47,3,2022-10,2022-12
+LN0010811,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-3.95,0.0,-3.95,39,2021-10,2025-06
+LN0010836,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,10334.06,0.0,10334.06,44,2021-11,2025-06
+LN0010857,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,245.96,0.0,245.96,6,2021-10,2022-03
+LN0010877,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,72.78,0.0,72.78,43,2021-10,2025-06
+LN0010892,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-31.61,0.0,-31.61,37,2021-10,2024-10
+LN0010906,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,11450.17,0.0,11450.17,21,2023-10,2025-06
+LN0010916,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,20.24,0.0,20.24,3,2024-11,2025-01
+LN0010931,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-79.26,0.0,-79.26,45,2021-10,2025-06
+LN0011044,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,83.11,0.0,83.11,7,2021-10,2022-04
+LN0011055,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-11602.95,0.0,-11602.95,20,2022-07,2024-02
+LN0011070,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,98.91,0.0,98.91,10,2024-01,2024-10
+LN0011144,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9553.27,0.0,9553.27,21,2023-10,2025-06
+LN0011150,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,3979.94,0.0,3979.94,1,2022-02,2022-02
+LN0011164,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-23.78,0.0,-23.78,45,2021-10,2025-06
+LN0011165,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-25.42,0.0,-25.42,37,2021-10,2024-10
+LN0011169,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-120.69,0.0,-120.69,45,2021-10,2025-06
+LN0011201,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-138.49,0.0,-138.49,45,2021-10,2025-06
+LN0011228,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,38052.02,0.0,38052.02,21,2023-10,2025-06
+LN0011246,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,8.21,0.0,8.21,2,2025-04,2025-05
+LN0011398,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-40.75,0.0,-40.75,25,2021-10,2023-10
+LN0011465,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1184.73,0.0,1184.73,18,2024-01,2025-06
+LN0011559,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-200.62,0.0,-200.62,45,2021-10,2025-06
+LN0011583,HL-FLT,Attributed,C-08,C-08 accrual after closure,,5390.15,0.0,5390.15,1,2024-08,2024-08
+LN0011620,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,17196.24,0.0,17196.24,11,2023-10,2024-08
+LN0011658,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13659.86,0.0,13659.86,21,2023-10,2025-06
+LN0011666,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-18.18,0.0,-18.18,42,2021-10,2025-06
+LN0011753,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,4535.02,0.0,4535.02,21,2023-10,2025-06
+LN0011761,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,570.87,0.0,570.87,18,2024-01,2025-06
+LN0011769,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,142.56,0.0,142.56,5,2021-10,2022-02
+LN0011777,GL-FIX,Attributed,C-08,C-08 accrual after closure,,842.99,0.0,842.99,1,2022-01,2022-01
+LN0011781,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-17875.47,0.0,-17875.47,36,2022-07,2025-06
+LN0011801,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3775.24,0.0,3775.24,29,2021-11,2024-03
+LN0011854,GL-FIX,Attributed,C-08,C-08 accrual after closure,,537.21,0.0,537.21,1,2022-02,2022-02
+LN0011905,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,5033.89,0.0,5033.89,44,2021-11,2025-06
+LN0011922,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,53.51,0.0,53.51,45,2021-10,2025-06
+LN0011980,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,10919.53,0.0,10919.53,43,2021-12,2025-06
+LN0012018,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14375.5,0.0,14375.5,20,2023-11,2025-06
+LN0012047,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,12011.76,0.0,12011.76,43,2021-12,2025-06
+LN0012068,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-3908.15,0.0,-3908.15,38,2022-05,2025-06
+LN0012099,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14461.93,0.0,14461.93,20,2023-11,2025-06
+LN0012108,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,2402.22,0.0,2402.22,1,2023-09,2023-09
+LN0012192,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-9384.27,0.0,-9384.27,44,2021-11,2025-06
+LN0012206,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-17472.83,0.0,-17472.83,38,2022-05,2025-06
+LN0012236,GL-FIX,Attributed,C-08,C-08 accrual after closure,,520.83,0.0,520.83,1,2022-07,2022-07
+LN0012374,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-17209.31,0.0,-17209.31,38,2022-05,2025-06
+LN0012410,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,20193.56,0.0,20193.56,43,2021-12,2025-06
+LN0012413,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12065.57,0.0,12065.57,20,2023-11,2025-06
+LN0012424,HL-MCLR,Attributed,C-05,C-05 penal charge capitalised,,5.89,0.0,5.89,2,2024-10,2024-11
+LN0012470,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,287.1,-500.0,-212.9,10,2024-09,2025-06
+LN0012475,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,55.81,0.0,55.81,44,2021-11,2025-06
+LN0012488,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp | C-06 daily rounding to 1dp,,-14.26,0.0,-14.26,9,2021-12,2022-08
+LN0012490,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-27615.56,0.0,-27615.56,38,2022-05,2025-06
+LN0012517,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,179028.83,0.0,179028.83,44,2021-11,2025-06
+LN0012525,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-2.37,0.0,-2.37,3,2022-01,2022-03
+LN0012576,HL-FLT,Attributed,C-02+C-05,C-02 reset one cycle late + C-05 penal interest +1.0% on rate | C-02 reset one cycle late + C-05 penal interest +2.0% on rate | C-02 reset one cycle late + C-05 penal interest +3.0% on rate,,-22470.1,-750.0,-23220.1,38,2022-05,2025-06
+LN0012607,GL-FIX,Attributed,C-08,C-08 accrual after closure,,1047.49,0.0,1047.49,1,2022-01,2022-01
+LN0012616,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-16361.5,0.0,-16361.5,38,2022-05,2025-06
+LN0012642,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,21.79,0.0,21.79,42,2021-11,2025-06
+LN0012663,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2927.53,0.0,2927.53,43,2021-12,2025-06
+LN0012777,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,131.86,0.0,131.86,12,2021-11,2022-10
+LN0012865,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-19174.72,0.0,-19174.72,15,2022-05,2023-07
+LN0012873,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,244.0,0.0,244.0,18,2024-01,2025-06
+LN0012904,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-9554.88,0.0,-9554.88,7,2022-05,2022-11
+LN0012910,HL-MCLR,Attributed,C-05,C-05 penal charge capitalised,,6.18,0.0,6.18,2,2024-09,2024-10
+LN0012935,HL-FLT,Attributed,C-08,C-08 accrual after closure,,26299.13,0.0,26299.13,1,2024-03,2024-03
+LN0012951,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,229.23,0.0,229.23,11,2024-01,2024-11
+LN0012957,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-10.29,0.0,-10.29,44,2021-11,2025-06
+LN0012959,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,127.22,0.0,127.22,13,2021-11,2022-11
+LN0012972,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,11329.42,0.0,11329.42,20,2023-11,2025-06
+LN0012992,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,4.75,0.0,4.75,2,2024-10,2024-11
+LN0013005,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,5.45,0.0,5.45,2,2025-01,2025-02
+LN0013032,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,47.27,0.0,47.27,44,2021-11,2025-06
+LN0013033,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-26.29,0.0,-26.29,37,2021-11,2024-11
+LN0013102,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.1,8887.91,0.0,8887.91,43,2021-12,2025-06
+LN0013205,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,23.03,0.0,23.03,23,2021-12,2023-10
+LN0013259,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,8673.93,0.0,8673.93,42,2022-01,2025-06
+LN0013305,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,16167.5,0.0,16167.5,42,2022-01,2025-06
+LN0013322,MSME-FLT,Attributed,C-05+C-09,C-05 penal interest +2.0% on rate + C-09 365-day basis in leap year,,15599.53,-1000.0,14599.53,18,2024-01,2025-06
+LN0013343,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,23655.94,0.0,23655.94,42,2022-01,2025-06
+LN0013383,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,56424.52,0.0,56424.52,43,2021-12,2025-06
+LN0013399,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,14476.44,0.0,14476.44,1,2022-11,2022-11
+LN0013422,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp | C-06 daily rounding to 1dp,,12.09,0.0,12.09,9,2022-01,2022-09
+LN0013452,PL-FIX,Attributed,C-05,C-05 penal interest +1.0% on rate | C-05 penal interest +2.0% on rate | C-05 penal interest +3.0% on rate,,0.0,-500.0,-500.0,1,2025-06,2025-06
+LN0013478,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-5.98,0.0,-5.98,30,2021-12,2025-06
+LN0013486,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,1963.39,-1000.0,963.39,4,2025-03,2025-06
+LN0013519,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1104.47,0.0,1104.47,39,2022-01,2025-03
+LN0013552,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9592.98,0.0,9592.98,19,2023-12,2025-06
+LN0013564,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,2774.53,0.0,2774.53,43,2021-12,2025-06
+LN0013585,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,776.46,0.0,776.46,18,2024-01,2025-06
+LN0013604,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-9780.35,0.0,-9780.35,37,2022-06,2025-06
+LN0013654,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,232.38,0.0,232.38,12,2024-01,2024-12
+LN0013731,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,192.41,0.0,192.41,12,2024-01,2024-12
+LN0013733,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,13.38,0.0,13.38,6,2024-10,2025-06
+LN0013817,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-48714.4,0.0,-48714.4,37,2022-06,2025-06
+LN0013824,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-43.72,0.0,-43.72,43,2021-12,2025-06
+LN0013863,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,815.1,0.0,815.1,18,2024-01,2025-06
+LN0013915,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-56.45,0.0,-56.45,37,2021-12,2024-12
+LN0014032,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,4.8,0.0,4.8,3,2025-01,2025-05
+LN0014139,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,123.56,0.0,123.56,18,2024-01,2025-06
+LN0014142,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-4805.68,0.0,-4805.68,31,2022-06,2024-12
+LN0014333,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-87.38,0.0,-87.38,32,2022-05,2025-06
+LN0014354,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,3657.75,0.0,3657.75,25,2022-01,2024-01
+LN0014423,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,557.9,-1000.0,-442.1,3,2024-11,2025-01
+LN0014426,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-2.95,0.0,-2.95,41,2022-01,2025-06
+LN0014427,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,1072.99,0.0,1072.99,42,2022-01,2025-06
+LN0014434,PL-FIX,Attributed,C-08,C-08 accrual after closure,,285.69,0.0,285.69,1,2025-06,2025-06
+LN0014482,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-31198.93,0.0,-31198.93,36,2022-07,2025-06
+LN0014548,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-99.11,0.0,-99.11,13,2022-01,2023-01
+LN0014644,PL-FIX,Attributed,C-08,C-08 accrual after closure,,517.21,0.0,517.21,1,2024-09,2024-09
+LN0014688,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-73.34,0.0,-73.34,41,2022-01,2025-06
+LN0014716,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,23.62,0.0,23.62,5,2024-11,2025-03
+LN0014766,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1530.03,0.0,1530.03,41,2022-02,2025-06
+LN0014780,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,3187.49,0.0,3187.49,1,2023-09,2023-09
+LN0014866,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,239.6,0.0,239.6,13,2024-01,2025-01
+LN0014870,MSME-FLT,Attributed,C-04+C-09,C-04 moratorium interest compounded + C-09 365-day basis in leap year,,4773.48,0.0,4773.48,41,2022-02,2025-06
+LN0014875,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,97.75,0.0,97.75,25,2022-01,2024-01
+LN0014876,PL-FIX,Attributed,C-08,C-08 accrual after closure,,2286.29,0.0,2286.29,1,2024-03,2024-03
+LN0014889,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-405.25,0.0,-405.25,10,2022-01,2022-10
+LN0014950,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,50.54,0.0,50.54,41,2022-01,2025-06
+LN0015007,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6098.59,0.0,6098.59,21,2023-10,2025-06
+LN0015023,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,771.61,0.0,771.61,18,2024-01,2025-06
+LN0015059,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-111.71,0.0,-111.71,31,2022-01,2025-04
+LN0015095,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-11990.91,0.0,-11990.91,31,2022-07,2025-01
+LN0015170,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,20189.0,0.0,20189.0,21,2023-10,2025-06
+LN0015185,PL-FIX,Attributed,C-08,C-08 accrual after closure,,930.55,0.0,930.55,1,2024-04,2024-04
+LN0015187,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,29.54,0.0,29.54,37,2022-01,2025-01
+LN0015206,HL-FLT,Attributed,C-08,C-08 accrual after closure,,6978.42,0.0,6978.42,1,2022-06,2022-06
+LN0015248,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6450.0,0.0,6450.0,16,2023-10,2025-01
+LN0015270,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,42.57,-500.0,-457.43,2,2024-12,2025-01
+LN0015294,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,22289.03,0.0,22289.03,41,2022-02,2025-06
+LN0015306,PL-FIX,Attributed,C-03+C-06,C-03 30E/360 day-count + C-06 daily rounding to 0dp,,95.34,0.0,95.34,37,2022-01,2025-01
+LN0015356,GL-FIX,Attributed,C-08,C-08 accrual after closure,,3187.8,0.0,3187.8,1,2022-05,2022-05
+LN0015387,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,74.75,0.0,74.75,42,2022-01,2025-06
+LN0015475,GL-FIX,Attributed,C-08,C-08 accrual after closure,,131.3,0.0,131.3,1,2022-09,2022-09
+LN0015503,PL-FIX,Attributed,C-08,C-08 accrual after closure,,1476.84,0.0,1476.84,1,2022-06,2022-06
+LN0015527,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-25061.94,0.0,-25061.94,36,2022-07,2025-06
+LN0015541,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,397.19,0.0,397.19,42,2022-01,2025-06
+LN0015597,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,10303.45,0.0,10303.45,8,2023-11,2024-06
+LN0015638,HL-FLT,Attributed,C-08,C-08 accrual after closure,,25913.77,0.0,25913.77,1,2025-05,2025-05
+LN0015656,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,13.04,0.0,13.04,4,2024-09,2025-02
+LN0015750,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,36106.28,0.0,36106.28,40,2022-03,2025-06
+LN0015773,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,1324.84,-1000.0,324.84,12,2024-07,2025-06
+LN0015780,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,179.63,0.0,179.63,37,2022-02,2025-02
+LN0015856,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,132.14,0.0,132.14,41,2022-02,2025-06
+LN0015907,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,163.03,0.0,163.03,18,2024-01,2025-06
+LN0015935,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-17483.61,0.0,-17483.61,38,2022-05,2025-06
+LN0015971,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2820.74,0.0,2820.74,40,2022-03,2025-06
+LN0016024,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,481.53,0.0,481.53,18,2024-01,2025-06
+LN0016089,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,2639.03,0.0,2639.03,1,2024-10,2024-10
+LN0016140,PL-FIX,Attributed,C-08,C-08 accrual after closure,,212.04,0.0,212.04,1,2024-07,2024-07
+LN0016153,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,45615.32,0.0,45615.32,40,2022-03,2025-06
+LN0016238,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-23581.42,0.0,-23581.42,38,2022-05,2025-06
+LN0016364,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-23515.66,0.0,-23515.66,38,2022-05,2025-06
+LN0016380,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.95,0.0,6.95,2,2024-08,2024-09
+LN0016388,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,1313.46,0.0,1313.46,7,2022-02,2022-08
+LN0016495,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-19222.26,0.0,-19222.26,29,2023-02,2025-06
+LN0016533,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-40.2,0.0,-40.2,38,2022-03,2025-06
+LN0016683,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-10019.24,0.0,-10019.24,37,2022-06,2025-06
+LN0016706,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-622.11,0.0,-622.11,37,2022-03,2025-03
+LN0016720,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13096.65,0.0,13096.65,19,2023-12,2025-06
+LN0016741,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-248.37,0.0,-248.37,13,2022-03,2023-03
+LN0016799,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,24646.21,0.0,24646.21,19,2023-12,2025-06
+LN0016830,HL-FLT,Attributed,C-08,C-08 accrual after closure,,10283.79,0.0,10283.79,1,2024-05,2024-05
+LN0016879,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-80250.0,0.0,-80250.0,37,2022-06,2025-06
+LN0016929,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,18.85,0.0,18.85,38,2022-03,2025-06
+LN0016985,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,60.95,0.0,60.95,34,2022-03,2025-06
+LN0017017,HL-FLT,Attributed,C-08,C-08 accrual after closure,,21120.04,0.0,21120.04,1,2024-03,2024-03
+LN0017023,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,23255.51,0.0,23255.51,40,2022-03,2025-06
+LN0017055,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,17270.13,0.0,17270.13,19,2023-12,2025-06
+LN0017126,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-23973.18,0.0,-23973.18,37,2022-06,2025-06
+LN0017146,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,3421.91,0.0,3421.91,12,2022-03,2023-02
+LN0017150,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-946.59,0.0,-946.59,37,2022-03,2025-03
+LN0017212,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-72577.93,0.0,-72577.93,28,2023-03,2025-06
+LN0017418,GL-FIX,Attributed,C-08,C-08 accrual after closure,,589.39,0.0,589.39,1,2022-11,2022-11
+LN0017496,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,85.4,0.0,85.4,31,2022-05,2025-06
+LN0017525,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-75.27,0.0,-75.27,25,2022-03,2024-03
+LN0017541,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,7952.52,-750.0,7202.52,11,2024-08,2025-06
+LN0017543,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-10475.46,0.0,-10475.46,37,2022-06,2025-06
+LN0017545,HL-FLT,Attributed,C-08,C-08 accrual after closure,,6883.06,0.0,6883.06,1,2023-03,2023-03
+LN0017553,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9106.72,0.0,9106.72,19,2023-12,2025-06
+LN0017593,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,53.52,0.0,53.52,10,2024-09,2025-06
+LN0017638,PL-FIX,Attributed,C-08,C-08 accrual after closure,,779.8,0.0,779.8,1,2022-11,2022-11
+LN0017653,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,6354.53,0.0,6354.53,40,2022-03,2025-06
+LN0017676,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,3957.22,0.0,3957.22,18,2024-01,2025-06
+LN0017741,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,960.31,0.0,960.31,15,2024-01,2025-03
+LN0017819,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-244.86,0.0,-244.86,40,2022-03,2025-06
+LN0017832,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-100.58,0.0,-100.58,10,2022-04,2023-01
+LN0017868,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-323.18,0.0,-323.18,39,2022-04,2025-06
+LN0017870,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-145.43,0.0,-145.43,37,2022-04,2025-04
+LN0017900,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,48.52,0.0,48.52,38,2022-04,2025-06
+LN0017939,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,895.63,0.0,895.63,38,2022-05,2025-06
+LN0017977,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,725.4,0.0,725.4,38,2022-05,2025-06
+LN0018037,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,10.27,0.0,10.27,4,2024-10,2025-01
+LN0018146,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,17720.34,0.0,17720.34,38,2022-05,2025-06
+LN0018150,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,17565.8,0.0,17565.8,21,2023-10,2025-06
+LN0018151,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13519.54,0.0,13519.54,21,2023-10,2025-06
+LN0018226,HL-FLT,Attributed,C-08,C-08 accrual after closure,,13980.84,0.0,13980.84,1,2023-03,2023-03
+LN0018232,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-33.13,0.0,-33.13,32,2022-08,2025-06
+LN0018322,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-2525.22,0.0,-2525.22,34,2022-04,2025-01
+LN0018325,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-105.19,0.0,-105.19,13,2022-04,2023-04
+LN0018394,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,153.89,0.0,153.89,16,2024-01,2025-04
+LN0018443,PL-FIX,Attributed,C-08,C-08 accrual after closure,,356.2,0.0,356.2,1,2024-01,2024-01
+LN0018456,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,5197.52,-750.0,4447.52,2,2025-05,2025-06
+LN0018522,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,9984.02,0.0,9984.02,25,2022-05,2024-05
+LN0018530,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2211.72,0.0,2211.72,38,2022-05,2025-06
+LN0018558,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-24001.12,0.0,-24001.12,36,2022-07,2025-06
+LN0018597,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,1325.74,0.0,1325.74,1,2023-02,2023-02
+LN0018605,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,9.0,0.0,9.0,2,2025-04,2025-05
+LN0018675,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,43515.97,0.0,43515.97,38,2022-05,2025-06
+LN0018713,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,41758.98,0.0,41758.98,39,2022-04,2025-06
+LN0018738,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,172.91,-1000.0,-827.09,9,2024-08,2025-04
+LN0018760,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,20721.87,0.0,20721.87,38,2022-05,2025-06
+LN0018804,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-23.56,0.0,-23.56,34,2022-05,2025-06
+LN0018814,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-195.01,0.0,-195.01,13,2022-04,2023-04
+LN0018818,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-18552.03,0.0,-18552.03,39,2022-04,2025-06
+LN0018823,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2715.04,0.0,2715.04,30,2022-05,2024-10
+LN0018836,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-79088.02,0.0,-79088.02,36,2022-07,2025-06
+LN0018854,HL-FLT,Attributed,C-06+C-07,C-06 daily rounding to 0dp + C-07 stale pre-change spread,,29268.64,0.0,29268.64,30,2022-04,2025-06
+LN0018881,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-380.23,0.0,-380.23,37,2022-04,2025-04
+LN0018900,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,101.13,0.0,101.13,35,2022-05,2025-06
+LN0019003,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14266.03,0.0,14266.03,21,2023-10,2025-06
+LN0019033,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,5.68,0.0,5.68,2,2025-04,2025-05
+LN0019076,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,35925.05,0.0,35925.05,37,2022-06,2025-06
+LN0019108,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,1319.26,0.0,1319.26,6,2023-11,2024-04
+LN0019110,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2706.58,0.0,2706.58,37,2022-06,2025-06
+LN0019194,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,22850.83,0.0,22850.83,35,2022-06,2025-04
+LN0019214,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1614.12,0.0,1614.12,18,2024-01,2025-06
+LN0019219,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,589.24,0.0,589.24,18,2024-01,2025-06
+LN0019238,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-21.51,0.0,-21.51,38,2022-05,2025-06
+LN0019255,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,469.94,0.0,469.94,18,2024-01,2025-06
+LN0019260,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-106.25,0.0,-106.25,25,2022-05,2024-05
+LN0019312,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-15501.53,0.0,-15501.53,9,2022-08,2023-04
+LN0019324,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,49582.21,0.0,49582.21,37,2022-06,2025-06
+LN0019329,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-835.78,0.0,-835.78,37,2022-05,2025-05
+LN0019462,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-25178.29,0.0,-25178.29,35,2022-08,2025-06
+LN0019486,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-164.14,0.0,-164.14,38,2022-05,2025-06
+LN0019518,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,25888.14,0.0,25888.14,1,2025-06,2025-06
+LN0019536,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,16663.66,0.0,16663.66,20,2023-11,2025-06
+LN0019577,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-186.27,0.0,-186.27,13,2022-05,2023-05
+LN0019591,HL-FLT,Attributed,C-08,C-08 accrual after closure,,29860.42,0.0,29860.42,1,2023-12,2023-12
+LN0019615,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,5.02,0.0,5.02,2,2024-09,2024-10
+LN0019636,MSME-FLT,Attributed,C-06+C-09,C-06 daily rounding to 0dp + C-09 365-day basis in leap year,,497.74,0.0,497.74,31,2022-05,2025-05
+LN0019664,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,53.37,0.0,53.37,29,2022-05,2025-06
+LN0019676,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,9.75,0.0,9.75,2,2024-08,2024-09
+LN0019752,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,216.26,0.0,216.26,12,2024-01,2024-12
+LN0019767,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-6444.4,0.0,-6444.4,9,2022-05,2023-01
+LN0019776,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,18267.0,0.0,18267.0,37,2022-06,2025-06
+LN0019811,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-10579.56,0.0,-10579.56,35,2022-08,2025-06
+LN0019827,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-31887.68,0.0,-31887.68,35,2022-08,2025-06
+LN0019828,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-42457.77,0.0,-42457.77,34,2022-08,2025-05
+LN0019862,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,256.93,0.0,256.93,17,2024-01,2025-05
+LN0019905,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-18.57,0.0,-18.57,31,2022-05,2025-05
+LN0019908,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,3389.47,0.0,3389.47,37,2022-05,2025-05
+LN0019952,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-418.27,0.0,-418.27,38,2022-05,2025-06
+LN0019966,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,25.54,0.0,25.54,25,2022-05,2025-04
+LN0019972,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-49805.0,0.0,-49805.0,26,2023-05,2025-06
+LN0019979,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,5.69,0.0,5.69,2,2025-04,2025-05
+LN0020039,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12518.57,0.0,12518.57,20,2023-11,2025-06
+LN0020042,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,222.7,0.0,222.7,17,2024-01,2025-05
+LN0020048,PL-FIX,Attributed,C-08,C-08 accrual after closure,,1642.98,0.0,1642.98,1,2024-08,2024-08
+LN0020064,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12636.07,0.0,12636.07,20,2023-11,2025-06
+LN0020085,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,219.3,0.0,219.3,18,2024-01,2025-06
+LN0020089,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,51.8,0.0,51.8,37,2022-06,2025-06
+LN0020116,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,42.39,0.0,42.39,7,2022-05,2022-12
+LN0020248,PL-FIX,Attributed,C-08,C-08 accrual after closure,,821.34,0.0,821.34,1,2022-10,2022-10
+LN0020255,GL-FIX,Attributed,C-08,C-08 accrual after closure,,111.69,0.0,111.69,1,2022-12,2022-12
+LN0020295,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-23951.0,0.0,-23951.0,34,2022-09,2025-06
+LN0020300,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,12438.37,0.0,12438.37,36,2022-07,2025-06
+LN0020315,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-3283.77,0.0,-3283.77,36,2022-06,2025-05
+LN0020393,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,584.55,0.0,584.55,18,2024-01,2025-06
+LN0020471,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-285.52,0.0,-285.52,25,2022-06,2024-06
+LN0020488,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,461.8,0.0,461.8,18,2024-01,2025-06
+LN0020515,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,11589.83,0.0,11589.83,19,2023-12,2025-06
+LN0020549,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-26244.88,0.0,-26244.88,34,2022-09,2025-06
+LN0020552,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,20121.05,0.0,20121.05,19,2023-12,2025-06
+LN0020591,HL-FLT,Attributed,C-08,C-08 accrual after closure,,23493.64,0.0,23493.64,1,2025-03,2025-03
+LN0020604,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,988.93,-1000.0,-11.07,2,2024-11,2024-12
+LN0020625,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,38.25,0.0,38.25,13,2022-09,2023-10
+LN0020632,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,20953.45,0.0,20953.45,37,2022-06,2025-06
+LN0020677,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,4810.4,-1500.0,3310.4,6,2025-01,2025-06
+LN0020730,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-9994.19,0.0,-9994.19,24,2022-09,2024-08
+LN0020749,HL-FLT,Attributed,C-08,C-08 accrual after closure,,11692.72,0.0,11692.72,1,2023-06,2023-06
+LN0020825,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,72.77,0.0,72.77,9,2022-06,2023-02
+LN0020847,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-294.61,0.0,-294.61,37,2022-06,2025-06
+LN0020864,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,3380.24,-750.0,2630.24,4,2025-03,2025-06
+LN0020875,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,2431.67,0.0,2431.67,18,2024-01,2025-06
+LN0020899,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,5.82,0.0,5.82,2,2025-04,2025-05
+LN0020901,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,17956.88,0.0,17956.88,19,2023-12,2025-06
+LN0020904,HL-MCLR,Attributed,C-05,C-05 penal charge capitalised,,6.02,0.0,6.02,2,2024-11,2024-12
+LN0020928,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-266.92,0.0,-266.92,37,2022-06,2025-06
+LN0021000,PL-FIX,Attributed,C-05+C-06,C-05 penal charge capitalised + C-06 daily rounding to 0dp,,-123.78,0.0,-123.78,35,2022-06,2025-06
+LN0021107,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-77.51,0.0,-77.51,37,2022-06,2025-06
+LN0021124,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,33825.82,0.0,33825.82,19,2023-12,2025-06
+LN0021170,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1668.32,0.0,1668.32,30,2022-07,2024-12
+LN0021198,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,32669.0,0.0,32669.0,37,2022-06,2025-06
+LN0021202,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,462.43,0.0,462.43,18,2024-01,2025-06
+LN0021307,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,8185.49,0.0,8185.49,19,2023-12,2025-06
+LN0021308,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,30284.72,0.0,30284.72,36,2022-07,2025-06
+LN0021354,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,32.02,0.0,32.02,35,2022-07,2025-06
+LN0021384,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,7923.85,0.0,7923.85,35,2022-08,2025-06
+LN0021390,PL-FIX,Attributed,C-08,C-08 accrual after closure,,2496.06,0.0,2496.06,1,2022-12,2022-12
+LN0021393,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-327.22,0.0,-327.22,36,2022-07,2025-06
+LN0021410,HL-FLT,Attributed,C-02+C-04,C-02 reset one cycle late + C-04 moratorium interest compounded,,4692.18,0.0,4692.18,35,2022-08,2025-06
+LN0021458,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,63769.32,0.0,63769.32,36,2022-07,2025-06
+LN0021459,PL-FIX,Attributed,C-08,C-08 accrual after closure,,672.27,0.0,672.27,1,2023-11,2023-11
+LN0021473,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,38048.42,0.0,38048.42,21,2023-10,2025-06
+LN0021493,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,109.86,0.0,109.86,18,2024-01,2025-06
+LN0021498,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-3167.23,0.0,-3167.23,36,2022-07,2025-06
+LN0021517,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-26222.64,0.0,-26222.64,36,2022-07,2025-06
+LN0021546,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.1,19753.57,0.0,19753.57,36,2022-07,2025-06
+LN0021573,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,116.7,0.0,116.7,29,2022-07,2025-06
+LN0021674,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-70.26,0.0,-70.26,33,2022-09,2025-06
+LN0021679,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-148.41,0.0,-148.41,29,2022-09,2025-06
+LN0021730,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-126.1,0.0,-126.1,25,2022-07,2024-07
+LN0021764,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,36060.41,0.0,36060.41,36,2022-07,2025-06
+LN0021771,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,4241.59,0.0,4241.59,1,2023-05,2023-05
+LN0021775,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,701.43,0.0,701.43,18,2024-01,2025-06
+LN0021818,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,29023.6,0.0,29023.6,21,2023-10,2025-06
+LN0021963,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,540.24,0.0,540.24,18,2024-01,2025-06
+LN0021965,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-32.64,0.0,-32.64,36,2022-07,2025-06
+LN0022010,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-304.33,0.0,-304.33,36,2022-07,2025-06
+LN0022034,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,27.89,0.0,27.89,1,2024-01,2024-01
+LN0022054,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-199.92,0.0,-199.92,36,2022-07,2025-06
+LN0022058,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-88.58,0.0,-88.58,7,2022-07,2023-01
+LN0022084,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-154.34,0.0,-154.34,36,2022-07,2025-06
+LN0022136,GL-FIX,Attributed,C-08,C-08 accrual after closure,,703.55,0.0,703.55,1,2022-11,2022-11
+LN0022144,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-8986.19,0.0,-8986.19,33,2022-10,2025-06
+LN0022174,GL-FIX,Attributed,C-08,C-08 accrual after closure,,435.69,0.0,435.69,1,2022-09,2022-09
+LN0022189,MSME-FLT,Attributed,C-02+C-09,C-02 reset one cycle late + C-09 365-day basis in leap year,,-14674.98,0.0,-14674.98,33,2022-10,2025-06
+LN0022233,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,316.72,0.0,316.72,18,2024-01,2025-06
+LN0022235,MSME-FLT,Attributed,C-04+C-09,C-04 moratorium interest compounded + C-09 365-day basis in leap year,,2722.31,0.0,2722.31,35,2022-08,2025-06
+LN0022272,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,91.38,0.0,91.38,18,2024-01,2025-06
+LN0022285,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,332.35,-500.0,-167.65,9,2024-10,2025-06
+LN0022336,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,16496.9,0.0,16496.9,21,2023-10,2025-06
+LN0022421,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,14162.08,0.0,14162.08,35,2022-08,2025-06
+LN0022466,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-144.66,0.0,-144.66,13,2022-07,2023-07
+LN0022490,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,6729.82,-2000.0,4729.82,6,2025-01,2025-06
+LN0022516,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,27742.85,-750.0,26992.85,11,2024-08,2025-06
+LN0022568,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,85.77,0.0,85.77,28,2022-08,2025-06
+LN0022570,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,20988.47,0.0,20988.47,1,2024-06,2024-06
+LN0022589,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-84.81,0.0,-84.81,16,2022-08,2023-11
+LN0022597,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,27064.92,0.0,27064.92,34,2022-09,2025-06
+LN0022624,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,861.63,-500.0,361.63,10,2024-09,2025-06
+LN0022742,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-392.44,0.0,-392.44,35,2022-08,2025-06
+LN0022759,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,11085.03,0.0,11085.03,20,2023-11,2025-06
+LN0022846,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-2237.53,0.0,-2237.53,32,2022-11,2025-06
+LN0022850,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-9166.36,0.0,-9166.36,32,2022-11,2025-06
+LN0022892,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,26508.34,0.0,26508.34,20,2023-11,2025-06
+LN0022909,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,342.48,0.0,342.48,18,2024-01,2025-06
+LN0022932,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-5045.02,0.0,-5045.02,32,2022-11,2025-06
+LN0022939,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.25,16598.66,0.0,16598.66,22,2022-08,2024-05
+LN0023016,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9345.7,0.0,9345.7,18,2023-11,2025-04
+LN0023061,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1755.3,0.0,1755.3,18,2024-01,2025-06
+LN0023096,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,24.43,0.0,24.43,1,2024-01,2024-01
+LN0023121,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,18815.03,0.0,18815.03,20,2023-11,2025-06
+LN0023133,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,677.8,0.0,677.8,11,2024-01,2024-11
+LN0023174,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-90.6,0.0,-90.6,35,2022-08,2025-06
+LN0023182,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,3324.25,-750.0,2574.25,9,2024-10,2025-06
+LN0023451,PL-FIX,Attributed,C-08,C-08 accrual after closure,,160.31,0.0,160.31,1,2024-01,2024-01
+LN0023472,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,15502.72,0.0,15502.72,20,2023-11,2025-06
+LN0023490,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-45.92,0.0,-45.92,35,2022-08,2025-06
+LN0023522,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,4121.12,-1000.0,3121.12,12,2024-07,2025-06
+LN0023578,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,19.5,0.0,19.5,5,2022-08,2022-12
+LN0023602,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,27600.31,0.0,27600.31,20,2023-11,2025-06
+LN0023619,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,8.79,0.0,8.79,2,2025-02,2025-03
+LN0023635,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,116.81,0.0,116.81,9,2022-09,2023-05
+LN0023667,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,793.36,0.0,793.36,18,2024-01,2025-06
+LN0023677,PL-FIX,Attributed,C-08,C-08 accrual after closure,,1073.55,0.0,1073.55,1,2023-10,2023-10
+LN0023709,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1713.06,0.0,1713.06,18,2024-01,2025-06
+LN0023727,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-93.49,0.0,-93.49,7,2022-09,2023-03
+LN0023751,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,960.5,0.0,960.5,15,2024-01,2025-03
+LN0023800,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,3516.51,0.0,3516.51,15,2022-09,2023-11
+LN0023822,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,376.82,0.0,376.82,13,2022-09,2023-09
+LN0023900,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,279.66,0.0,279.66,18,2024-01,2025-06
+LN0023904,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,0.14,0.0,0.14,34,2022-09,2025-06
+LN0023951,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,692.78,0.0,692.78,34,2022-09,2025-06
+LN0023980,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,105.83,0.0,105.83,6,2024-01,2024-06
+LN0024167,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,708.27,0.0,708.27,18,2024-01,2025-06
+LN0024184,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,16437.42,0.0,16437.42,19,2023-12,2025-06
+LN0024200,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,16573.75,0.0,16573.75,33,2022-10,2025-06
+LN0024202,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-6825.26,0.0,-6825.26,31,2022-12,2025-06
+LN0024215,HL-FLT,Attributed,C-08,C-08 accrual after closure,,4534.33,0.0,4534.33,1,2024-11,2024-11
+LN0024225,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-5258.82,0.0,-5258.82,31,2022-12,2025-06
+LN0024273,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,100.92,0.0,100.92,12,2022-09,2023-08
+LN0024275,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,3559.04,0.0,3559.04,34,2022-09,2025-06
+LN0024302,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,8195.22,0.0,8195.22,34,2022-09,2025-06
+LN0024337,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-275.2,0.0,-275.2,24,2022-09,2025-05
+LN0024367,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-1850.98,0.0,-1850.98,31,2022-12,2025-06
+LN0024376,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-2426.41,0.0,-2426.41,21,2022-09,2024-05
+LN0024419,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,16455.77,0.0,16455.77,33,2022-10,2025-06
+LN0024466,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14381.96,0.0,14381.96,19,2023-12,2025-06
+LN0024522,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,800.6,0.0,800.6,7,2022-09,2023-03
+LN0024561,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-7944.97,0.0,-7944.97,31,2022-12,2025-06
+LN0024708,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,36811.49,0.0,36811.49,34,2022-09,2025-06
+LN0024714,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9775.18,0.0,9775.18,19,2023-12,2025-06
+LN0024723,MSME-FLT,Attributed,C-02+C-04,C-02 reset one cycle late + C-04 moratorium interest compounded,,-5073.97,0.0,-5073.97,33,2022-10,2025-06
+LN0024726,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,527.84,0.0,527.84,18,2024-01,2025-06
+LN0024782,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,16862.76,0.0,16862.76,19,2023-12,2025-06
+LN0024835,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,137.53,0.0,137.53,4,2024-01,2024-04
+LN0024836,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,24936.88,0.0,24936.88,34,2022-09,2025-06
+LN0024846,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-85.39,0.0,-85.39,25,2022-09,2024-09
+LN0024927,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,30022.34,0.0,30022.34,21,2023-10,2025-06
+LN0024963,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-39.76,0.0,-39.76,29,2022-10,2025-06
+LN0025019,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-1.43,0.0,-1.43,13,2022-10,2023-10
+LN0025133,PL-FIX,Attributed,C-08,C-08 accrual after closure,,3950.63,0.0,3950.63,1,2023-03,2023-03
+LN0025150,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-40.19,0.0,-40.19,30,2023-01,2025-06
+LN0025192,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,359.25,0.0,359.25,18,2024-01,2025-06
+LN0025216,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-821.5,0.0,-821.5,30,2023-01,2025-06
+LN0025283,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-18.49,0.0,-18.49,24,2022-10,2024-10
+LN0025299,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-187.7,0.0,-187.7,28,2022-10,2025-01
+LN0025314,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,11.16,0.0,11.16,3,2025-04,2025-06
+LN0025327,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,217.76,0.0,217.76,18,2024-01,2025-06
+LN0025345,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-38.24,0.0,-38.24,7,2022-10,2023-04
+LN0025363,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,8245.07,0.0,8245.07,32,2022-11,2025-06
+LN0025414,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-657.66,0.0,-657.66,33,2022-10,2025-06
+LN0025543,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-1094.56,0.0,-1094.56,30,2023-01,2025-06
+LN0025770,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,7606.8,-750.0,6856.8,7,2024-12,2025-06
+LN0025825,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-1521.2,0.0,-1521.2,33,2022-10,2025-06
+LN0025841,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,8730.81,0.0,8730.81,21,2023-10,2025-06
+LN0025843,HL-FLT,Attributed,C-08,C-08 accrual after closure,,5725.26,0.0,5725.26,1,2024-03,2024-03
+LN0025846,HL-FLT,Attributed,C-08,C-08 accrual after closure,,4016.01,0.0,4016.01,1,2023-06,2023-06
+LN0025888,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,20397.34,0.0,20397.34,21,2023-10,2025-06
+LN0025912,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2690.83,0.0,2690.83,32,2022-11,2025-06
+LN0026018,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,20540.38,0.0,20540.38,21,2023-10,2025-06
+LN0026027,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-224.32,0.0,-224.32,33,2022-10,2025-06
+LN0026045,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,25996.69,0.0,25996.69,32,2022-11,2025-06
+LN0026106,PL-FIX,Attributed,C-03+C-08,C-03 30E/360 day-count + C-08 accrual after closure,,2987.61,0.0,2987.61,20,2022-11,2024-06
+LN0026110,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,5.41,0.0,5.41,2,2025-02,2025-03
+LN0026119,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,25885.58,0.0,25885.58,20,2023-11,2025-06
+LN0026128,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,25075.39,0.0,25075.39,20,2023-11,2025-06
+LN0026150,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,5.42,0.0,5.42,2,2022-11,2022-12
+LN0026158,GL-FIX,Attributed,C-08,C-08 accrual after closure,,1124.91,0.0,1124.91,1,2023-05,2023-05
+LN0026252,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-900.65,0.0,-900.65,29,2023-02,2025-06
+LN0026292,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-1453.02,0.0,-1453.02,29,2023-02,2025-06
+LN0026399,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,193.72,0.0,193.72,18,2024-01,2025-06
+LN0026433,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,1502.62,-1000.0,502.62,3,2025-04,2025-06
+LN0026445,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,473.19,0.0,473.19,13,2022-11,2023-11
+LN0026460,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,61899.54,0.0,61899.54,32,2022-11,2025-06
+LN0026478,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,34.75,-500.0,-465.25,2,2024-10,2024-11
+LN0026538,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,23.54,0.0,23.54,32,2022-11,2025-06
+LN0026643,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,2181.13,0.0,2181.13,31,2022-11,2025-05
+LN0026695,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-23.14,0.0,-23.14,23,2022-11,2024-09
+LN0026754,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,6372.96,-750.0,5622.96,6,2025-01,2025-06
+LN0026794,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,8.92,0.0,8.92,2,2025-05,2025-06
+LN0026828,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,11730.33,0.0,11730.33,31,2022-12,2025-06
+LN0026843,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,717.62,0.0,717.62,13,2022-11,2023-11
+LN0026865,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,226.31,0.0,226.31,31,2022-12,2025-06
+LN0026889,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,7399.15,-750.0,6649.15,10,2024-09,2025-06
+LN0026898,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6707.65,0.0,6707.65,20,2023-11,2025-06
+LN0026899,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,332.85,0.0,332.85,29,2023-02,2025-06
+LN0026924,GL-FIX,Attributed,C-08,C-08 accrual after closure,,304.53,0.0,304.53,1,2023-02,2023-02
+LN0026978,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,36803.51,0.0,36803.51,32,2022-11,2025-06
+LN0026986,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-31249.41,0.0,-31249.41,20,2023-11,2025-06
+LN0027035,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,44.92,0.0,44.92,24,2023-01,2025-06
+LN0027042,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,884.92,0.0,884.92,18,2024-01,2025-06
+LN0027044,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-679.55,0.0,-679.55,11,2022-11,2023-09
+LN0027049,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-21.3,0.0,-21.3,32,2022-11,2025-06
+LN0027074,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-2.87,0.0,-2.87,17,2023-02,2025-05
+LN0027079,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-659.67,0.0,-659.67,29,2023-02,2025-06
+LN0027110,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,11621.37,0.0,11621.37,31,2022-12,2025-06
+LN0027170,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-59.32,0.0,-59.32,32,2022-11,2025-06
+LN0027194,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-29435.92,0.0,-29435.92,20,2023-11,2025-06
+LN0027199,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,6008.21,0.0,6008.21,31,2022-12,2025-06
+LN0027230,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,19103.9,0.0,19103.9,20,2023-11,2025-06
+LN0027232,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,11127.6,0.0,11127.6,20,2023-11,2025-06
+LN0027240,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-36832.27,0.0,-36832.27,20,2023-11,2025-06
+LN0027279,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-718.26,0.0,-718.26,28,2023-03,2025-06
+LN0027312,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,17796.87,0.0,17796.87,19,2023-12,2025-06
+LN0027316,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,20884.61,0.0,20884.61,19,2023-12,2025-06
+LN0027348,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,34368.87,0.0,34368.87,31,2022-12,2025-06
+LN0027354,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-100.81,0.0,-100.81,5,2024-05,2025-04
+LN0027357,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,18125.67,0.0,18125.67,19,2023-12,2025-06
+LN0027358,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6490.04,0.0,6490.04,19,2023-12,2025-06
+LN0027415,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-14148.67,0.0,-14148.67,19,2023-12,2025-06
+LN0027418,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.1,5843.22,0.0,5843.22,31,2022-12,2025-06
+LN0027481,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,36170.54,0.0,36170.54,19,2023-12,2025-06
+LN0027483,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,22344.11,0.0,22344.11,19,2023-12,2025-06
+LN0027550,PL-FIX,Attributed,C-05,C-05 penal interest +1.0% on rate | C-05 penal interest +2.0% on rate | C-05 penal interest +3.0% on rate,,0.0,-500.0,-500.0,1,2025-06,2025-06
+LN0027577,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1190.5,0.0,1190.5,30,2023-01,2025-06
+LN0027589,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-41.82,0.0,-41.82,31,2022-12,2025-06
+LN0027614,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,2106.92,0.0,2106.92,18,2024-01,2025-06
+LN0027660,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,9385.04,0.0,9385.04,1,2024-01,2024-01
+LN0027666,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,412.71,0.0,412.71,18,2024-01,2025-06
+LN0027714,GL-FIX,Attributed,C-08,C-08 accrual after closure,,139.62,0.0,139.62,1,2023-06,2023-06
+LN0027768,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,10464.82,0.0,10464.82,19,2023-12,2025-06
+LN0027936,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-50.14,0.0,-50.14,31,2022-12,2025-06
+LN0028005,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,6745.32,0.0,6745.32,30,2023-01,2025-06
+LN0028009,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,127.48,-500.0,-372.52,2,2024-11,2024-12
+LN0028029,HL-FLT,Attributed,C-08,C-08 accrual after closure,,25216.32,0.0,25216.32,1,2024-11,2024-11
+LN0028077,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,2574.38,-750.0,1824.38,3,2025-04,2025-06
+LN0028082,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,6666.26,0.0,6666.26,1,2023-07,2023-07
+LN0028089,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-16217.99,0.0,-16217.99,19,2023-12,2025-06
+LN0028097,PL-FIX,Attributed,C-03+C-08,C-03 30E/360 day-count + C-08 accrual after closure,,809.92,0.0,809.92,11,2022-12,2023-10
+LN0028120,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,21238.54,0.0,21238.54,19,2023-12,2025-06
+LN0028130,HL-MCLR,Attributed,C-05,C-05 penal charge capitalised,,12.15,0.0,12.15,4,2024-12,2025-03
+LN0028177,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,-1440.57,0.0,-1440.57,7,2023-03,2023-09
+LN0028190,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-112.03,0.0,-112.03,31,2022-12,2025-06
+LN0028197,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,9439.73,0.0,9439.73,31,2022-12,2025-06
+LN0028214,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,7122.48,-750.0,6372.48,2,2025-01,2025-02
+LN0028274,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-59.67,0.0,-59.67,31,2022-12,2025-06
+LN0028296,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,5067.05,0.0,5067.05,17,2023-03,2025-06
+LN0028376,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-55.29,0.0,-55.29,19,2022-12,2025-05
+LN0028380,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,7815.9,0.0,7815.9,19,2023-12,2025-06
+LN0028382,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,13914.71,0.0,13914.71,31,2022-12,2025-06
+LN0028459,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,4560.56,0.0,4560.56,19,2023-12,2025-06
+LN0028466,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,19.53,0.0,19.53,25,2023-01,2025-06
+LN0028470,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,999.49,0.0,999.49,18,2024-01,2025-06
+LN0028475,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,24898.31,0.0,24898.31,1,2023-11,2023-11
+LN0028477,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,-1326.15,0.0,-1326.15,28,2023-03,2025-06
+LN0028533,HL-FLT,Attributed,C-01+C-06,C-01 wrong spread (implied) + C-06 daily rounding to 0dp,0.25,27546.53,0.0,27546.53,30,2023-01,2025-06
+LN0028581,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,93085.08,0.0,93085.08,29,2023-02,2025-06
+LN0028657,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,152.14,0.0,152.14,22,2023-01,2025-06
+LN0028705,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-2270.11,0.0,-2270.11,30,2023-01,2025-06
+LN0028719,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,3428.32,0.0,3428.32,13,2023-04,2025-06
+LN0028721,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-30237.86,0.0,-30237.86,30,2023-01,2025-06
+LN0028735,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,104.55,0.0,104.55,18,2024-01,2025-06
+LN0028848,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,105.11,0.0,105.11,18,2024-01,2025-06
+LN0028864,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,21037.05,0.0,21037.05,29,2023-02,2025-06
+LN0028886,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,4010.6,0.0,4010.6,29,2023-02,2025-06
+LN0028902,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,62.18,0.0,62.18,25,2023-01,2025-01
+LN0028926,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,2300.64,0.0,2300.64,18,2024-01,2025-06
+LN0028937,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-59.09,0.0,-59.09,13,2023-01,2024-01
+LN0028999,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,153259.52,0.0,153259.52,30,2023-01,2025-06
+LN0029004,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,2088.64,0.0,2088.64,13,2023-04,2025-06
+LN0029007,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,9803.56,0.0,9803.56,29,2023-02,2025-06
+LN0029012,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-84.71,0.0,-84.71,22,2023-01,2025-06
+LN0029018,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,14033.73,0.0,14033.73,1,2024-04,2024-04
+LN0029025,PL-FIX,Attributed,C-08,C-08 accrual after closure,,707.71,0.0,707.71,1,2023-07,2023-07
+LN0029073,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,3212.66,0.0,3212.66,13,2023-04,2025-06
+LN0029077,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,21746.57,0.0,21746.57,21,2023-10,2025-06
+LN0029121,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,1737.53,0.0,1737.53,13,2023-04,2025-06
+LN0029179,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,5082.0,0.0,5082.0,29,2023-02,2025-06
+LN0029273,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12649.96,0.0,12649.96,21,2023-10,2025-06
+LN0029290,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-5456.77,0.0,-5456.77,18,2024-01,2025-06
+LN0029299,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-81.62,0.0,-81.62,29,2023-01,2025-06
+LN0029304,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,56.56,0.0,56.56,30,2023-01,2025-06
+LN0029313,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,8843.85,0.0,8843.85,21,2023-10,2025-06
+LN0029392,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.15,0.0,6.15,2,2025-04,2025-05
+LN0029429,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,23.89,0.0,23.89,30,2023-01,2025-06
+LN0029437,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-32.74,0.0,-32.74,30,2023-01,2025-06
+LN0029448,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,44224.03,0.0,44224.03,29,2023-02,2025-06
+LN0029471,PL-FIX,Attributed,C-08,C-08 accrual after closure,,687.4,0.0,687.4,1,2023-10,2023-10
+LN0029517,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,9575.16,0.0,9575.16,29,2023-02,2025-06
+LN0029527,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,6954.03,0.0,6954.03,30,2023-01,2025-06
+LN0029611,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,77.36,0.0,77.36,18,2024-01,2025-06
+LN0029657,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,333.47,0.0,333.47,18,2024-01,2025-06
+LN0029696,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,442.84,0.0,442.84,18,2024-01,2025-06
+LN0029703,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,323.22,0.0,323.22,18,2024-01,2025-06
+LN0029781,MSME-FLT,Attributed,C-01+C-09,C-01 wrong spread (implied) + C-09 365-day basis in leap year,0.25,6590.4,0.0,6590.4,12,2023-02,2024-01
+LN0029786,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,2390.98,0.0,2390.98,1,2024-12,2024-12
+LN0029789,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,138.3,0.0,138.3,29,2023-02,2025-06
+LN0029795,GL-FIX,Attributed,C-08,C-08 accrual after closure,,295.31,0.0,295.31,1,2023-03,2023-03
+LN0029820,MSME-FLT,Attributed,C-08+C-09,C-08 accrual after closure + C-09 365-day basis in leap year,,6815.31,0.0,6815.31,16,2024-01,2025-04
+LN0029858,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,5477.01,0.0,5477.01,12,2023-05,2025-06
+LN0029860,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,6025.18,0.0,6025.18,28,2023-03,2025-06
+LN0029914,MSME-FLT,Attributed,C-02+C-09,C-02 reset one cycle late + C-09 365-day basis in leap year,,-79.91,0.0,-79.91,26,2023-05,2025-06
+LN0029925,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,161.01,0.0,161.01,29,2023-02,2025-06
+LN0029963,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3131.24,0.0,3131.24,28,2023-03,2025-06
+LN0029995,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,2111.31,0.0,2111.31,29,2023-02,2025-06
+LN0029998,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,18.28,0.0,18.28,24,2023-02,2025-01
+LN0030130,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-9011.26,0.0,-9011.26,17,2024-02,2025-06
+LN0030137,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-162.36,0.0,-162.36,17,2023-02,2024-06
+LN0030158,HL-FLT,Attributed,C-02+C-07,C-02 reset one cycle late + C-07 stale pre-change spread,,27139.77,0.0,27139.77,20,2023-11,2025-06
+LN0030162,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,10384.1,0.0,10384.1,9,2023-03,2023-11
+LN0030171,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,943.49,0.0,943.49,29,2023-02,2025-06
+LN0030287,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-6.04,0.0,-6.04,13,2023-02,2024-02
+LN0030337,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,7087.75,0.0,7087.75,20,2023-11,2025-06
+LN0030355,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,175.09,0.0,175.09,29,2023-02,2025-06
+LN0030435,GL-FIX,Attributed,C-08,C-08 accrual after closure,,2926.74,0.0,2926.74,1,2023-05,2023-05
+LN0030563,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,7163.98,0.0,7163.98,20,2023-11,2025-06
+LN0030694,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,236.13,0.0,236.13,29,2023-02,2025-06
+LN0030699,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,52.18,0.0,52.18,5,2023-02,2023-06
+LN0030810,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,5008.61,0.0,5008.61,29,2023-02,2025-06
+LN0030812,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,70.57,0.0,70.57,6,2023-03,2023-08
+LN0030947,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,2000.57,0.0,2000.57,18,2024-01,2025-06
+LN0030968,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,9322.98,0.0,9322.98,19,2023-12,2025-06
+LN0031061,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,716.25,0.0,716.25,4,2025-03,2025-06
+LN0031088,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,7021.51,0.0,7021.51,19,2023-12,2025-06
+LN0031105,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-10193.07,0.0,-10193.07,16,2024-03,2025-06
+LN0031109,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,18305.66,0.0,18305.66,27,2023-04,2025-06
+LN0031156,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-449.9,0.0,-449.9,28,2023-03,2025-06
+LN0031179,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12033.19,0.0,12033.19,19,2023-12,2025-06
+LN0031186,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,8009.89,0.0,8009.89,27,2023-04,2025-06
+LN0031187,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,79.22,0.0,79.22,25,2023-03,2025-06
+LN0031215,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,8649.25,0.0,8649.25,19,2023-12,2025-06
+LN0031262,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,9.37,0.0,9.37,2,2024-07,2024-08
+LN0031291,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,815.63,0.0,815.63,18,2024-01,2025-06
+LN0031338,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,419.44,0.0,419.44,18,2024-01,2025-06
+LN0031386,PL-FIX,Attributed,C-08,C-08 accrual after closure,,5101.43,0.0,5101.43,1,2023-09,2023-09
+LN0031422,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,515.28,-1000.0,-484.72,11,2024-08,2025-06
+LN0031446,GL-FIX,Attributed,C-08,C-08 accrual after closure,,522.99,0.0,522.99,1,2023-08,2023-08
+LN0031541,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-225.66,0.0,-225.66,28,2023-03,2025-06
+LN0031599,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13683.17,0.0,13683.17,19,2023-12,2025-06
+LN0031614,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,19121.16,0.0,19121.16,27,2023-04,2025-06
+LN0031664,PL-FIX,Attributed,C-08,C-08 accrual after closure,,347.44,0.0,347.44,1,2024-12,2024-12
+LN0031671,GL-FIX,Attributed,C-08,C-08 accrual after closure,,300.03,0.0,300.03,1,2023-05,2023-05
+LN0031697,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,461.74,0.0,461.74,18,2024-01,2025-06
+LN0031776,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,12255.37,-1000.0,11255.37,4,2025-03,2025-06
+LN0031788,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,144.72,0.0,144.72,13,2023-03,2024-03
+LN0031844,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13433.25,0.0,13433.25,19,2023-12,2025-06
+LN0031883,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,5.84,0.0,5.84,2,2025-04,2025-05
+LN0031899,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1626.99,0.0,1626.99,18,2024-01,2025-06
+LN0031909,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-180.1,0.0,-180.1,28,2023-03,2025-06
+LN0032063,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,5693.93,0.0,5693.93,21,2023-10,2025-06
+LN0032083,PL-FIX,Attributed,C-08,C-08 accrual after closure,,2988.63,0.0,2988.63,1,2024-01,2024-01
+LN0032084,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,808.02,0.0,808.02,25,2023-04,2025-04
+LN0032133,PL-FIX,Attributed,C-08,C-08 accrual after closure,,947.42,0.0,947.42,1,2024-03,2024-03
+LN0032141,GL-FIX,Attributed,C-08,C-08 accrual after closure,,87.83,0.0,87.83,1,2023-12,2023-12
+LN0032167,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-100.11,0.0,-100.11,13,2023-04,2024-04
+LN0032245,GL-FIX,Attributed,C-08,C-08 accrual after closure,,235.22,0.0,235.22,1,2023-05,2023-05
+LN0032272,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-76.41,0.0,-76.41,27,2023-04,2025-06
+LN0032277,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-150.29,0.0,-150.29,27,2023-04,2025-06
+LN0032280,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,252.36,0.0,252.36,7,2023-04,2023-10
+LN0032316,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-97.17,0.0,-97.17,10,2023-04,2024-01
+LN0032329,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,7774.84,0.0,7774.84,1,2024-07,2024-07
+LN0032339,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,361.42,0.0,361.42,18,2024-01,2025-06
+LN0032355,GL-FIX,Attributed,C-08,C-08 accrual after closure,,1352.57,0.0,1352.57,1,2023-07,2023-07
+LN0032358,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,8365.6,0.0,8365.6,26,2023-05,2025-06
+LN0032373,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-86.65,0.0,-86.65,21,2023-04,2025-05
+LN0032412,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,5531.22,0.0,5531.22,3,2025-04,2025-06
+LN0032434,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-53.38,0.0,-53.38,7,2023-04,2023-10
+LN0032492,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,76258.48,0.0,76258.48,27,2023-04,2025-06
+LN0032566,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,6973.47,-750.0,6223.47,3,2025-04,2025-06
+LN0032588,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,373.08,-500.0,-126.92,5,2024-11,2025-03
+LN0032591,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-88.08,0.0,-88.08,27,2023-04,2025-06
+LN0032669,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,98.13,-500.0,-401.87,10,2024-09,2025-06
+LN0032674,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-439.45,0.0,-439.45,25,2023-04,2025-04
+LN0032711,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,151.89,0.0,151.89,10,2023-04,2024-01
+LN0032723,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,8654.18,0.0,8654.18,21,2023-10,2025-06
+LN0032737,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,300.91,-500.0,-199.09,10,2024-09,2025-06
+LN0032881,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,22636.24,0.0,22636.24,21,2023-10,2025-06
+LN0032966,HL-FLT,Attributed,C-08,C-08 accrual after closure,,8523.71,0.0,8523.71,1,2024-02,2024-02
+LN0032972,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,316.05,0.0,316.05,18,2024-01,2025-06
+LN0033014,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,8.21,0.0,8.21,2,2025-01,2025-02
+LN0033051,MSME-FLT,Attributed,C-05+C-09,C-05 penal interest +2.0% on rate + C-09 365-day basis in leap year,,3986.35,-1000.0,2986.35,18,2024-01,2025-06
+LN0033055,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,660.77,0.0,660.77,26,2023-05,2025-06
+LN0033061,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,2546.05,-500.0,2046.05,8,2024-11,2025-06
+LN0033097,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-11.43,0.0,-11.43,12,2023-04,2024-05
+LN0033169,GL-FIX,Attributed,C-08,C-08 accrual after closure,,454.21,0.0,454.21,1,2023-05,2023-05
+LN0033184,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-664.59,0.0,-664.59,27,2023-04,2025-06
+LN0033252,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,2349.51,-1000.0,1349.51,10,2024-09,2025-06
+LN0033288,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),-0.25,-16482.22,0.0,-16482.22,20,2023-05,2024-12
+LN0033291,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,332.81,0.0,332.81,2,2025-05,2025-06
+LN0033362,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,21444.72,0.0,21444.72,25,2023-06,2025-06
+LN0033377,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,270.06,-500.0,-229.94,8,2024-11,2025-06
+LN0033394,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,21308.94,0.0,21308.94,20,2023-11,2025-06
+LN0033456,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,17.6,0.0,17.6,3,2023-05,2023-07
+LN0033470,HL-FLT,Attributed,C-08,C-08 accrual after closure,,25210.48,0.0,25210.48,1,2025-06,2025-06
+LN0033489,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-498.88,0.0,-498.88,5,2023-05,2023-09
+LN0033560,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,6208.62,0.0,6208.62,20,2023-11,2025-06
+LN0033588,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-247.07,0.0,-247.07,25,2023-05,2025-05
+LN0033598,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,7413.57,0.0,7413.57,20,2023-11,2025-06
+LN0033671,HL-MCLR,Attributed,C-05,C-05 penal charge capitalised,,6.12,0.0,6.12,2,2024-10,2024-11
+LN0033711,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,2.07,0.0,2.07,7,2023-05,2023-12
+LN0033752,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,7266.64,0.0,7266.64,20,2023-11,2025-06
+LN0033754,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,16547.76,0.0,16547.76,20,2023-11,2025-06
+LN0033774,GL-FIX,Attributed,C-08,C-08 accrual after closure,,1690.71,0.0,1690.71,1,2023-10,2023-10
+LN0033805,PL-FIX,Attributed,C-08,C-08 accrual after closure,,485.92,0.0,485.92,1,2024-11,2024-11
+LN0033822,HL-FLT,Attributed,C-05+C-07,C-05 penal interest +2.0% on rate + C-07 stale pre-change spread,,27877.86,-750.0,27127.86,20,2023-11,2025-06
+LN0033828,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,2112.58,0.0,2112.58,18,2024-01,2025-06
+LN0033830,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,279.68,0.0,279.68,18,2024-01,2025-06
+LN0033917,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,5524.05,0.0,5524.05,26,2023-05,2025-06
+LN0033957,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,515.82,-500.0,15.82,2,2025-02,2025-03
+LN0034028,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,10389.22,0.0,10389.22,20,2023-11,2025-06
+LN0034062,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,4616.58,0.0,4616.58,25,2023-06,2025-06
+LN0034071,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,423.41,0.0,423.41,5,2025-02,2025-06
+LN0034096,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9632.78,0.0,9632.78,20,2023-11,2025-06
+LN0034111,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,26848.82,0.0,26848.82,25,2023-06,2025-06
+LN0034128,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-246.29,0.0,-246.29,26,2023-05,2025-06
+LN0034130,PL-FIX,Attributed,C-08,C-08 accrual after closure,,2345.34,0.0,2345.34,1,2025-02,2025-02
+LN0034150,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6972.59,0.0,6972.59,10,2023-11,2024-08
+LN0034266,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp | C-06 daily rounding to 1dp,,-10.66,0.0,-10.66,9,2023-06,2024-02
+LN0034285,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,-5140.25,0.0,-5140.25,14,2024-05,2025-06
+LN0034321,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,20355.9,0.0,20355.9,25,2023-06,2025-06
+LN0034345,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-117.59,0.0,-117.59,9,2023-06,2024-02
+LN0034355,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-22447.84,0.0,-22447.84,26,2023-05,2025-06
+LN0034381,HL-FLT,Attributed,C-02+C-07,C-02 reset one cycle late + C-07 stale pre-change spread,,11234.62,0.0,11234.62,19,2023-11,2025-05
+LN0034436,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,8623.64,0.0,8623.64,19,2023-12,2025-06
+LN0034462,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-120.3,0.0,-120.3,25,2023-06,2025-06
+LN0034514,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14778.24,0.0,14778.24,19,2023-12,2025-06
+LN0034515,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,12102.97,0.0,12102.97,19,2023-12,2025-06
+LN0034518,HL-FLT,Attributed,C-08,C-08 accrual after closure,,14526.49,0.0,14526.49,1,2024-12,2024-12
+LN0034529,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,694.92,-500.0,194.92,9,2024-10,2025-06
+LN0034570,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-45.61,0.0,-45.61,22,2023-06,2025-03
+LN0034646,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,547.79,0.0,547.79,18,2024-01,2025-06
+LN0034689,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,580.88,0.0,580.88,18,2024-01,2025-06
+LN0034692,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-264.9,0.0,-264.9,25,2023-06,2025-06
+LN0034727,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1623.96,0.0,1623.96,18,2024-01,2025-06
+LN0034766,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,2201.78,0.0,2201.78,4,2025-03,2025-06
+LN0034794,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,7738.94,0.0,7738.94,19,2023-12,2025-06
+LN0034804,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,18.11,0.0,18.11,4,2024-09,2024-12
+LN0034901,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-75.71,0.0,-75.71,25,2023-06,2025-06
+LN0034903,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-202.89,0.0,-202.89,25,2023-06,2025-06
+LN0034919,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,3665.62,0.0,3665.62,19,2023-12,2025-06
+LN0034983,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,491.04,0.0,491.04,18,2024-01,2025-06
+LN0035010,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,21496.54,0.0,21496.54,19,2023-12,2025-06
+LN0035119,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,9873.72,0.0,9873.72,19,2023-12,2025-06
+LN0035125,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,15897.88,0.0,15897.88,19,2023-12,2025-06
+LN0035202,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,103980.76,0.0,103980.76,25,2023-06,2025-06
+LN0035213,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,471.84,0.0,471.84,18,2024-01,2025-06
+LN0035275,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,181.83,0.0,181.83,13,2023-06,2024-06
+LN0035313,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,35641.3,0.0,35641.3,19,2023-12,2025-06
+LN0035319,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,13683.83,0.0,13683.83,25,2023-06,2025-06
+LN0035378,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-107.51,0.0,-107.51,13,2023-06,2024-06
+LN0035401,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,18515.55,0.0,18515.55,19,2023-12,2025-06
+LN0035423,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,91.86,-500.0,-408.14,8,2024-11,2025-06
+LN0035485,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,3736.39,0.0,3736.39,25,2023-06,2025-06
+LN0035526,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6823.18,0.0,6823.18,19,2023-12,2025-06
+LN0035530,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,35636.38,0.0,35636.38,1,2024-04,2024-04
+LN0035539,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-246.41,0.0,-246.41,20,2023-06,2025-01
+LN0035557,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-20152.04,0.0,-20152.04,25,2023-06,2025-06
+LN0035571,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,564.4,0.0,564.4,4,2025-03,2025-06
+LN0035606,HL-MCLR,Attributed,C-02,C-02 reset one cycle late,,14.02,0.0,14.02,1,2025-06,2025-06
+LN0035654,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3123.62,0.0,3123.62,23,2023-08,2025-06
+LN0035682,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,10531.88,0.0,10531.88,23,2023-08,2025-06
+LN0035693,MSME-FLT,Attributed,C-05,C-05 penal interest +1.0% on rate | C-05 penal interest +2.0% on rate | C-05 penal interest +3.0% on rate,,0.0,-1000.0,-1000.0,1,2025-06,2025-06
+LN0035704,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,342.17,-500.0,-157.83,4,2025-03,2025-06
+LN0035717,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,60.29,0.0,60.29,19,2023-07,2025-06
+LN0035730,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,0.0,0.0,0.0,1,2025-06,2025-06
+LN0035771,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,24.9,0.0,24.9,22,2023-07,2025-06
+LN0035901,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,589.79,0.0,589.79,18,2024-01,2025-06
+LN0035946,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,416.04,0.0,416.04,24,2023-07,2025-06
+LN0036008,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.22,0.0,6.22,2,2025-04,2025-05
+LN0036025,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,61775.2,0.0,61775.2,24,2023-07,2025-06
+LN0036035,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,5115.66,0.0,5115.66,23,2023-08,2025-06
+LN0036058,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-225.7,0.0,-225.7,24,2023-07,2025-06
+LN0036201,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-649.24,0.0,-649.24,24,2023-07,2025-06
+LN0036214,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-27.59,0.0,-27.59,20,2023-07,2025-06
+LN0036258,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6583.13,0.0,6583.13,21,2023-10,2025-06
+LN0036264,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,31067.75,0.0,31067.75,23,2023-08,2025-06
+LN0036309,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,508.07,0.0,508.07,13,2023-07,2024-07
+LN0036332,HL-FLT,Attributed,C-08,C-08 accrual after closure,,16850.99,0.0,16850.99,1,2023-12,2023-12
+LN0036333,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,21634.51,0.0,21634.51,21,2023-10,2025-06
+LN0036365,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,25370.21,0.0,25370.21,23,2023-08,2025-06
+LN0036373,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,7627.04,0.0,7627.04,24,2023-07,2025-06
+LN0036394,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,14.81,0.0,14.81,23,2023-07,2025-06
+LN0036406,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-25.94,0.0,-25.94,6,2023-12,2024-07
+LN0036423,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-42.67,0.0,-42.67,18,2023-07,2025-06
+LN0036473,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,8602.26,0.0,8602.26,23,2023-08,2025-06
+LN0036512,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,10128.1,0.0,10128.1,23,2023-08,2025-06
+LN0036523,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-1925.99,0.0,-1925.99,24,2023-07,2025-06
+LN0036536,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,17079.52,0.0,17079.52,21,2023-10,2025-06
+LN0036573,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-417.81,0.0,-417.81,13,2023-07,2024-07
+LN0036666,GL-FIX,Attributed,C-08,C-08 accrual after closure,,808.21,0.0,808.21,1,2024-01,2024-01
+LN0036702,GL-FIX,Attributed,C-08,C-08 accrual after closure,,1240.58,0.0,1240.58,1,2024-03,2024-03
+LN0036723,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,567.94,0.0,567.94,18,2024-01,2025-06
+LN0036805,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,1735.53,-1000.0,735.53,12,2024-07,2025-06
+LN0036836,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,14295.82,0.0,14295.82,21,2023-10,2025-06
+LN0036849,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,88.33,0.0,88.33,18,2024-01,2025-06
+LN0036859,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,4.97,0.0,4.97,4,2025-03,2025-06
+LN0036965,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13355.5,0.0,13355.5,20,2023-11,2025-06
+LN0036985,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,1260.65,0.0,1260.65,23,2023-08,2025-06
+LN0037129,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,38529.92,0.0,38529.92,22,2023-09,2025-06
+LN0037132,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,2967.47,0.0,2967.47,11,2023-09,2024-07
+LN0037198,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,5630.64,0.0,5630.64,20,2023-11,2025-06
+LN0037237,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,54.08,0.0,54.08,21,2023-08,2025-06
+LN0037322,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,6069.12,0.0,6069.12,20,2023-11,2025-06
+LN0037369,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,5072.46,0.0,5072.46,5,2025-02,2025-06
+LN0037372,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,13.29,0.0,13.29,23,2023-08,2025-06
+LN0037558,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,24521.24,0.0,24521.24,20,2023-11,2025-06
+LN0037559,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,22067.69,0.0,22067.69,20,2023-11,2025-06
+LN0037589,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-281.39,0.0,-281.39,23,2023-08,2025-06
+LN0037617,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-245.85,0.0,-245.85,13,2023-08,2024-08
+LN0037624,GL-FIX,Attributed,C-08,C-08 accrual after closure,,969.0,0.0,969.0,1,2023-11,2023-11
+LN0037658,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-208.84,0.0,-208.84,11,2023-08,2024-06
+LN0037697,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,1117.7,0.0,1117.7,13,2023-08,2024-08
+LN0037764,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,1166.96,0.0,1166.96,5,2025-02,2025-06
+LN0037768,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,14.84,0.0,14.84,21,2023-08,2025-06
+LN0037778,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,7934.77,0.0,7934.77,20,2023-11,2025-06
+LN0037804,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,794.8,-500.0,294.8,4,2025-03,2025-06
+LN0037818,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,26335.17,0.0,26335.17,23,2023-08,2025-06
+LN0037824,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,24622.27,0.0,24622.27,20,2023-11,2025-06
+LN0037853,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,27617.17,0.0,27617.17,20,2023-11,2025-06
+LN0037874,GL-FIX,Attributed,C-08,C-08 accrual after closure,,360.62,0.0,360.62,1,2024-02,2024-02
+LN0037909,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-151.98,0.0,-151.98,23,2023-08,2025-06
+LN0037922,HL-FLT,Attributed,C-02+C-05,C-02 reset one cycle late + C-05 penal charge capitalised,,9399.72,0.0,9399.72,20,2023-11,2025-06
+LN0037936,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13227.24,0.0,13227.24,20,2023-11,2025-06
+LN0037941,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,19024.39,0.0,19024.39,23,2023-08,2025-06
+LN0037982,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2398.54,0.0,2398.54,22,2023-09,2025-06
+LN0037991,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,182.75,0.0,182.75,18,2024-01,2025-06
+LN0037993,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,924.59,0.0,924.59,5,2025-02,2025-06
+LN0038015,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,8176.39,0.0,8176.39,1,2024-07,2024-07
+LN0038057,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,749.61,0.0,749.61,18,2024-01,2025-06
+LN0038074,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,666.31,0.0,666.31,10,2023-09,2024-06
+LN0038204,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,16744.82,0.0,16744.82,19,2023-12,2025-06
+LN0038207,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,11421.86,0.0,11421.86,21,2023-10,2025-06
+LN0038229,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-45.42,0.0,-45.42,22,2023-09,2025-06
+LN0038235,GL-FIX,Attributed,C-08,C-08 accrual after closure,,238.73,0.0,238.73,1,2023-12,2023-12
+LN0038245,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,16367.62,0.0,16367.62,19,2023-12,2025-06
+LN0038261,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-58.05,0.0,-58.05,22,2023-09,2025-06
+LN0038265,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,27.54,0.0,27.54,22,2023-09,2025-06
+LN0038268,PL-FIX,Attributed,C-08,C-08 accrual after closure,,6614.91,0.0,6614.91,1,2024-08,2024-08
+LN0038405,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,6431.29,0.0,6431.29,16,2023-12,2025-03
+LN0038432,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-36.82,0.0,-36.82,10,2023-09,2024-06
+LN0038470,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,910.19,0.0,910.19,10,2023-09,2024-06
+LN0038510,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,42.81,0.0,42.81,18,2023-09,2025-06
+LN0038548,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,13584.5,0.0,13584.5,19,2023-12,2025-06
+LN0038576,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,14230.36,0.0,14230.36,19,2023-12,2025-06
+LN0038635,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,6584.19,0.0,6584.19,16,2023-10,2025-01
+LN0038649,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,429.45,-500.0,-70.55,10,2024-09,2025-06
+LN0038701,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,9680.23,-750.0,8930.23,11,2024-08,2025-06
+LN0038704,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,8805.63,0.0,8805.63,17,2023-10,2025-02
+LN0038719,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,8192.47,0.0,8192.47,21,2023-10,2025-06
+LN0038759,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,697.28,0.0,697.28,17,2024-01,2025-05
+LN0038802,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,470.23,0.0,470.23,18,2024-01,2025-06
+LN0038815,GL-FIX,Attributed,C-08,C-08 accrual after closure,,650.84,0.0,650.84,1,2023-10,2023-10
+LN0038854,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-5.08,0.0,-5.08,22,2023-09,2025-06
+LN0038876,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-59690.22,0.0,-59690.22,22,2023-09,2025-06
+LN0038930,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.84,0.0,6.84,2,2024-08,2024-09
+LN0038949,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,5984.05,0.0,5984.05,21,2023-10,2025-06
+LN0039010,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,28.76,0.0,28.76,22,2023-09,2025-06
+LN0039055,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-43.42,0.0,-43.42,22,2023-09,2025-06
+LN0039066,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,2606.8,0.0,2606.8,5,2023-09,2024-01
+LN0039071,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,4405.8,-750.0,3655.8,9,2024-10,2025-06
+LN0039108,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,9405.12,0.0,9405.12,19,2023-12,2025-06
+LN0039154,GL-FIX,Unexplained,,,,356.75,0.0,356.75,1,2023-10,2023-10
+LN0039178,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,8.85,0.0,8.85,2,2024-12,2025-01
+LN0039185,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-153.25,0.0,-153.25,22,2023-09,2025-06
+LN0039204,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,4644.06,-750.0,3894.06,7,2024-12,2025-06
+LN0039205,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,17025.08,0.0,17025.08,19,2023-12,2025-06
+LN0039206,HL-FLT,Attributed,C-07,C-07 stale pre-change spread,,11686.56,0.0,11686.56,19,2023-12,2025-06
+LN0039226,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,0.0,0.0,0.0,1,2025-06,2025-06
+LN0039267,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-168.68,0.0,-168.68,22,2023-09,2025-06
+LN0039271,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,137.05,0.0,137.05,13,2023-10,2024-10
+LN0039291,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,3981.47,0.0,3981.47,3,2025-04,2025-06
+LN0039339,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,297.34,0.0,297.34,18,2024-01,2025-06
+LN0039356,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,23494.35,0.0,23494.35,20,2023-11,2025-06
+LN0039444,PL-FIX,Attributed,C-08,C-08 accrual after closure,,262.74,0.0,262.74,1,2025-06,2025-06
+LN0039470,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,26399.91,0.0,26399.91,20,2023-11,2025-06
+LN0039478,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,502.41,0.0,502.41,3,2025-04,2025-06
+LN0039495,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-32.07,0.0,-32.07,11,2023-12,2024-10
+LN0039672,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,6850.69,0.0,6850.69,17,2023-10,2025-02
+LN0039714,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-4.35,0.0,-4.35,16,2023-10,2025-05
+LN0039741,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,9726.93,0.0,9726.93,21,2023-10,2025-06
+LN0039750,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-2415.23,0.0,-2415.23,21,2023-10,2025-06
+LN0039769,HL-FLT,Attributed,C-08,C-08 accrual after closure,,11285.87,0.0,11285.87,1,2024-04,2024-04
+LN0039796,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-54.26,0.0,-54.26,21,2023-10,2025-06
+LN0039838,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-24.56,0.0,-24.56,13,2023-10,2024-10
+LN0039856,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,4057.93,0.0,4057.93,21,2023-10,2025-06
+LN0039881,GL-FIX,Attributed,C-08,C-08 accrual after closure,,784.6,0.0,784.6,1,2024-02,2024-02
+LN0039918,GL-FIX,Attributed,C-08,C-08 accrual after closure,,116.6,0.0,116.6,1,2024-02,2024-02
+LN0040047,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,5321.83,0.0,5321.83,21,2023-10,2025-06
+LN0040081,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-10329.49,0.0,-10329.49,21,2023-10,2025-06
+LN0040092,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,7296.01,0.0,7296.01,20,2023-11,2025-06
+LN0040146,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,445.9,0.0,445.9,13,2023-10,2024-10
+LN0040170,HL-FLT,Attributed,C-08,C-08 accrual after closure,,18196.05,0.0,18196.05,1,2025-01,2025-01
+LN0040180,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,384.56,0.0,384.56,18,2024-01,2025-06
+LN0040237,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,9.59,0.0,9.59,3,2024-07,2025-02
+LN0040261,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,3697.04,-750.0,2947.04,8,2024-11,2025-06
+LN0040357,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-30.21,0.0,-30.21,15,2023-12,2025-06
+LN0040359,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1950.94,0.0,1950.94,20,2023-11,2025-06
+LN0040364,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-62.57,0.0,-62.57,21,2023-10,2025-06
+LN0040420,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,12590.73,0.0,12590.73,1,2025-02,2025-02
+LN0040451,MSME-FLT,Attributed,C-01+C-09,C-01 wrong spread (implied) + C-09 365-day basis in leap year,0.5,14883.1,0.0,14883.1,21,2023-10,2025-06
+LN0040468,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,3011.21,0.0,3011.21,2,2025-05,2025-06
+LN0040483,HL-MCLR,Attributed,C-05,C-05 penal charge capitalised,,18.03,0.0,18.03,4,2024-08,2024-11
+LN0040534,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp | C-06 daily rounding to 1dp,,-18.33,0.0,-18.33,13,2023-11,2024-11
+LN0040555,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,13.1,0.0,13.1,20,2023-11,2025-06
+LN0040600,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-228.86,0.0,-228.86,10,2023-11,2024-08
+LN0040671,PL-FIX,Attributed,C-08,C-08 accrual after closure,,1030.56,0.0,1030.56,1,2024-09,2024-09
+LN0040736,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,524.41,0.0,524.41,18,2024-01,2025-06
+LN0040759,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-15272.61,0.0,-15272.61,20,2023-11,2025-06
+LN0040816,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1926.78,0.0,1926.78,10,2023-12,2024-09
+LN0040829,PL-FIX,Attributed,C-08,C-08 accrual after closure,,316.09,0.0,316.09,1,2024-10,2024-10
+LN0040895,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,51672.46,0.0,51672.46,19,2023-12,2025-06
+LN0040917,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-1.92,0.0,-1.92,20,2023-11,2025-06
+LN0041098,HL-MCLR,Attributed,C-05,C-05 penal interest +2.0% on rate,,2485.88,-750.0,1735.88,4,2025-03,2025-06
+LN0041145,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1677.55,0.0,1677.55,18,2024-01,2025-06
+LN0041180,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,0.0,0.0,0.0,1,2025-06,2025-06
+LN0041204,PL-FIX,Attributed,C-08,C-08 accrual after closure,,2070.8,0.0,2070.8,1,2025-05,2025-05
+LN0041252,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-142.86,0.0,-142.86,20,2023-11,2025-06
+LN0041263,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,0.0,0.0,0.0,1,2025-06,2025-06
+LN0041308,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),-0.25,-38909.28,0.0,-38909.28,20,2023-11,2025-06
+LN0041323,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,401.33,-500.0,-98.67,9,2024-10,2025-06
+LN0041342,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,5064.09,0.0,5064.09,20,2023-11,2025-06
+LN0041418,HL-FLT,Attributed,C-08,C-08 accrual after closure,,16440.67,0.0,16440.67,1,2024-09,2024-09
+LN0041477,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-114.14,0.0,-114.14,20,2023-11,2025-06
+LN0041490,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,15149.01,0.0,15149.01,20,2023-11,2025-06
+LN0041502,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-23.25,0.0,-23.25,15,2023-12,2025-06
+LN0041524,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,5.1,0.0,5.1,2,2023-12,2024-01
+LN0041577,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,1118.46,0.0,1118.46,5,2025-02,2025-06
+LN0041625,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-99.46,0.0,-99.46,14,2023-12,2025-05
+LN0041798,MSME-FLT,Attributed,C-06+C-09,C-06 daily rounding to 0dp + C-09 365-day basis in leap year,,597.08,0.0,597.08,18,2024-01,2025-06
+LN0041804,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-71.69,0.0,-71.69,13,2023-12,2024-12
+LN0041886,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,12.17,0.0,12.17,14,2023-12,2025-01
+LN0041960,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-129.5,0.0,-129.5,19,2023-12,2025-06
+LN0042114,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3687.16,0.0,3687.16,18,2024-01,2025-06
+LN0042204,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,56.78,0.0,56.78,18,2023-12,2025-06
+LN0042257,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,20315.84,0.0,20315.84,19,2023-12,2025-06
+LN0042376,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1480.24,0.0,1480.24,18,2024-01,2025-06
+LN0042436,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,94398.46,0.0,94398.46,19,2023-12,2025-06
+LN0042482,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,49.98,0.0,49.98,13,2023-12,2024-12
+LN0042496,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,0.03,0.0,0.03,9,2024-05,2025-05
+LN0042502,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-41.82,0.0,-41.82,14,2023-12,2025-06
+LN0042565,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),-0.25,-9129.77,0.0,-9129.77,19,2023-12,2025-06
+LN0042569,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,311.29,0.0,311.29,18,2024-01,2025-06
+LN0042609,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,197.69,0.0,197.69,18,2024-01,2025-06
+LN0042621,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-139.92,0.0,-139.92,19,2023-12,2025-06
+LN0042697,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,2683.45,0.0,2683.45,19,2023-12,2025-06
+LN0042743,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-78.63,0.0,-78.63,13,2023-12,2024-12
+LN0042745,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,562.17,-500.0,62.17,3,2025-04,2025-06
+LN0042749,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-12.59,0.0,-12.59,3,2024-01,2024-03
+LN0042792,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-79.95,0.0,-79.95,19,2023-12,2025-06
+LN0042859,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,2738.75,0.0,2738.75,4,2025-03,2025-06
+LN0042913,GL-FIX,Attributed,C-08,C-08 accrual after closure,,297.47,0.0,297.47,1,2024-08,2024-08
+LN0043073,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,5.79,0.0,5.79,5,2024-11,2025-06
+LN0043089,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,5652.22,0.0,5652.22,17,2024-02,2025-06
+LN0043154,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,4514.6,0.0,4514.6,13,2024-01,2025-01
+LN0043187,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,13767.76,0.0,13767.76,17,2024-02,2025-06
+LN0043189,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,4042.47,0.0,4042.47,18,2024-01,2025-06
+LN0043332,GL-FIX,Attributed,C-08,C-08 accrual after closure,,758.02,0.0,758.02,1,2024-04,2024-04
+LN0043338,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,6963.31,0.0,6963.31,17,2024-01,2025-05
+LN0043344,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,21759.57,0.0,21759.57,18,2024-01,2025-06
+LN0043358,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,475.66,0.0,475.66,3,2025-04,2025-06
+LN0043423,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,14214.42,0.0,14214.42,14,2024-01,2025-02
+LN0043429,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.5,33116.46,0.0,33116.46,18,2024-01,2025-06
+LN0043435,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,2145.74,0.0,2145.74,1,2024-09,2024-09
+LN0043468,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,7616.6,0.0,7616.6,17,2024-02,2025-06
+LN0043517,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,18.68,0.0,18.68,4,2025-02,2025-06
+LN0043535,GL-FIX,Attributed,C-08,C-08 accrual after closure,,1024.11,0.0,1024.11,1,2024-04,2024-04
+LN0043569,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-61.35,0.0,-61.35,13,2024-01,2025-01
+LN0043598,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),-0.25,-9269.6,0.0,-9269.6,18,2024-01,2025-06
+LN0043608,PL-FIX,Attributed,C-03+C-05,C-03 30E/360 day-count + C-05 penal interest +2.0% on rate,,246.67,-500.0,-253.33,18,2024-01,2025-06
+LN0043744,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,9.45,0.0,9.45,4,2024-10,2025-04
+LN0043779,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-95.16,0.0,-95.16,18,2024-01,2025-06
+LN0043784,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,971.55,0.0,971.55,13,2024-02,2025-02
+LN0043816,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,3043.99,0.0,3043.99,1,2025-06,2025-06
+LN0043845,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,584.45,0.0,584.45,3,2025-04,2025-06
+LN0043933,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-7.35,0.0,-7.35,18,2024-01,2025-06
+LN0043994,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,212.65,0.0,212.65,18,2024-01,2025-06
+LN0043999,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-31.22,0.0,-31.22,8,2024-11,2025-06
+LN0044008,GL-FIX,Attributed,C-08,C-08 accrual after closure,,107.8,0.0,107.8,1,2024-03,2024-03
+LN0044036,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,3123.53,0.0,3123.53,18,2024-01,2025-06
+LN0044059,GL-FIX,Attributed,C-08,C-08 accrual after closure,,254.54,0.0,254.54,1,2024-03,2024-03
+LN0044070,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,550.36,-2000.0,-1449.64,10,2024-09,2025-06
+LN0044071,MSME-FLT,Attributed,C-04+C-08,C-04 moratorium interest compounded + C-08 accrual after closure,,31072.56,0.0,31072.56,10,2024-02,2024-11
+LN0044077,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,2566.03,0.0,2566.03,3,2025-04,2025-06
+LN0044103,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,16465.66,0.0,16465.66,13,2024-03,2025-03
+LN0044161,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,92.95,0.0,92.95,17,2024-02,2025-06
+LN0044198,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,180.21,0.0,180.21,17,2024-02,2025-06
+LN0044246,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,122.46,0.0,122.46,17,2024-02,2025-06
+LN0044372,HL-MCLR,Attributed,C-05,C-05 penal charge capitalised,,5.4,0.0,5.4,2,2025-01,2025-02
+LN0044408,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,320.28,0.0,320.28,17,2024-02,2025-06
+LN0044427,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-42.23,0.0,-42.23,13,2024-02,2025-02
+LN0044447,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,11889.36,0.0,11889.36,16,2024-03,2025-06
+LN0044456,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,555.75,0.0,555.75,5,2025-02,2025-06
+LN0044467,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,46.14,0.0,46.14,17,2024-02,2025-06
+LN0044489,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,75.93,0.0,75.93,17,2024-02,2025-06
+LN0044501,PL-FIX,Attributed,C-08,C-08 accrual after closure,,313.09,0.0,313.09,1,2024-06,2024-06
+LN0044507,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,57.54,0.0,57.54,16,2024-02,2025-06
+LN0044576,GL-FIX,Attributed,C-08,C-08 accrual after closure,,35.26,0.0,35.26,1,2024-04,2024-04
+LN0044602,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.71,0.0,6.71,8,2024-07,2025-02
+LN0044716,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),-0.25,-904.5,0.0,-904.5,17,2024-02,2025-06
+LN0044717,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,949.42,0.0,949.42,17,2024-02,2025-06
+LN0044817,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,47.28,0.0,47.28,13,2024-02,2025-02
+LN0044837,HL-MCLR,Attributed,C-05,C-05 penal interest +2.0% on rate,,7723.44,-750.0,6973.44,10,2024-09,2025-06
+LN0044929,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,2630.87,0.0,2630.87,16,2024-03,2025-06
+LN0044942,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,16.41,0.0,16.41,15,2024-04,2025-06
+LN0044967,HL-MCLR,Attributed,C-01+C-08,C-01 wrong spread (implied) + C-08 accrual after closure,0.1,19567.84,0.0,19567.84,12,2024-02,2025-01
+LN0044973,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,327.9,0.0,327.9,17,2024-02,2025-06
+LN0044980,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,73.34,0.0,73.34,17,2024-02,2025-06
+LN0045024,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,10680.29,0.0,10680.29,14,2024-02,2025-03
+LN0045073,HL-FLT,Attributed,C-01+C-02,C-01 wrong spread (implied) + C-02 reset one cycle late,-0.25,-6810.24,0.0,-6810.24,17,2024-02,2025-06
+LN0045085,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,1410.08,0.0,1410.08,5,2025-02,2025-06
+LN0045138,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,5.04,0.0,5.04,2,2024-09,2024-10
+LN0045171,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.25,6855.03,0.0,6855.03,17,2024-02,2025-06
+LN0045179,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,15755.7,0.0,15755.7,16,2024-02,2025-05
+LN0045208,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,13562.68,0.0,13562.68,17,2024-02,2025-06
+LN0045225,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,73.32,0.0,73.32,17,2024-02,2025-06
+LN0045261,PL-FIX,Attributed,C-05,C-05 penal interest +2.0% on rate,,828.57,-500.0,328.57,10,2024-09,2025-06
+LN0045305,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,291.15,0.0,291.15,16,2024-03,2025-06
+LN0045306,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,725.02,0.0,725.02,16,2024-03,2025-06
+LN0045308,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,2631.69,0.0,2631.69,1,2025-02,2025-02
+LN0045329,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,18198.91,0.0,18198.91,15,2024-04,2025-06
+LN0045336,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,3378.98,0.0,3378.98,15,2024-04,2025-06
+LN0045348,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1945.37,0.0,1945.37,15,2024-04,2025-06
+LN0045357,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-356.85,0.0,-356.85,13,2024-03,2025-03
+LN0045360,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-1202.94,0.0,-1202.94,16,2024-03,2025-06
+LN0045365,GL-FIX,Attributed,C-08,C-08 accrual after closure,,1297.97,0.0,1297.97,1,2024-05,2024-05
+LN0045369,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,18279.31,0.0,18279.31,16,2024-03,2025-06
+LN0045390,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-90.08,0.0,-90.08,8,2024-03,2024-10
+LN0045438,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,-27.19,0.0,-27.19,10,2024-03,2024-12
+LN0045503,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-144.59,0.0,-144.59,12,2024-03,2025-02
+LN0045646,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),-0.25,-17037.73,0.0,-17037.73,16,2024-03,2025-06
+LN0045660,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,12.35,0.0,12.35,12,2024-07,2025-06
+LN0045733,GL-FIX,Attributed,C-08,C-08 accrual after closure,,274.73,0.0,274.73,1,2024-10,2024-10
+LN0045745,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,1713.59,0.0,1713.59,4,2025-03,2025-06
+LN0045749,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,-33.23,0.0,-33.23,10,2024-03,2024-12
+LN0045772,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-229.17,0.0,-229.17,16,2024-03,2025-06
+LN0045776,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.1,58.4,0.0,58.4,10,2024-03,2024-12
+LN0045883,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,5066.27,0.0,5066.27,16,2024-03,2025-06
+LN0045892,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,3577.94,0.0,3577.94,16,2024-03,2025-06
+LN0045955,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,5.46,0.0,5.46,3,2025-04,2025-06
+LN0045987,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,279.46,0.0,279.46,16,2024-03,2025-06
+LN0045995,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-251.63,0.0,-251.63,16,2024-03,2025-06
+LN0046212,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,4892.74,0.0,4892.74,15,2024-04,2025-06
+LN0046213,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,2206.96,0.0,2206.96,4,2025-03,2025-06
+LN0046243,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,7408.84,0.0,7408.84,15,2024-04,2025-06
+LN0046270,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,72.7,0.0,72.7,15,2024-03,2025-06
+LN0046293,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,3187.15,-1000.0,2187.15,11,2024-08,2025-06
+LN0046314,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,36789.07,0.0,36789.07,15,2024-04,2025-06
+LN0046329,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,207.71,0.0,207.71,6,2024-03,2024-08
+LN0046353,HL-FLT,Attributed,C-01+C-05,C-01 wrong spread (implied) + C-05 penal charge capitalised,0.5,12962.68,0.0,12962.68,16,2024-03,2025-06
+LN0046377,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,295.63,0.0,295.63,4,2025-03,2025-06
+LN0046381,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,861.59,0.0,861.59,4,2025-03,2025-06
+LN0046524,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,6.26,0.0,6.26,2,2024-07,2024-08
+LN0046540,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,810.92,-1000.0,-189.08,7,2024-12,2025-06
+LN0046575,HL-MCLR,Attributed,C-05,C-05 penal charge capitalised,,28.49,0.0,28.49,6,2024-12,2025-05
+LN0046583,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,8.59,0.0,8.59,2,2025-01,2025-02
+LN0046612,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,155.15,0.0,155.15,15,2024-04,2025-06
+LN0046614,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,1359.19,0.0,1359.19,15,2024-04,2025-06
+LN0046615,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,784.46,0.0,784.46,15,2024-04,2025-06
+LN0046627,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-107.12,0.0,-107.12,13,2024-04,2025-04
+LN0046670,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.82,0.0,6.82,4,2024-06,2025-04
+LN0046703,MSME-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,21079.61,0.0,21079.61,15,2024-04,2025-06
+LN0046763,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-1.16,0.0,-1.16,15,2024-04,2025-06
+LN0046764,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.46,0.0,6.46,2,2024-05,2024-06
+LN0046798,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.25,2661.42,0.0,2661.42,15,2024-04,2025-06
+LN0046866,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,83.69,0.0,83.69,15,2024-04,2025-06
+LN0046871,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,34.25,0.0,34.25,12,2024-04,2025-06
+LN0046892,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-79.74,0.0,-79.74,14,2024-04,2025-06
+LN0046907,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,5.37,0.0,5.37,13,2024-04,2025-06
+LN0046944,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,175.91,0.0,175.91,15,2024-04,2025-06
+LN0047009,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.1,526.64,0.0,526.64,5,2024-04,2024-08
+LN0047069,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,1798.86,0.0,1798.86,3,2025-04,2025-06
+LN0047112,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,7213.08,0.0,7213.08,1,2024-12,2024-12
+LN0047113,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,166.52,0.0,166.52,15,2024-04,2025-06
+LN0047126,PL-FIX,Attributed,C-08,C-08 accrual after closure,,2185.73,0.0,2185.73,1,2025-06,2025-06
+LN0047152,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,33.65,0.0,33.65,15,2024-04,2025-06
+LN0047190,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,62.66,0.0,62.66,6,2024-04,2024-09
+LN0047191,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,1351.3,0.0,1351.3,3,2025-04,2025-06
+LN0047192,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,8075.68,0.0,8075.68,14,2024-05,2025-06
+LN0047235,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,17743.38,0.0,17743.38,14,2024-05,2025-06
+LN0047485,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.24,0.0,6.24,2,2024-05,2024-06
+LN0047490,GL-FIX,Attributed,C-08,C-08 accrual after closure,,1601.13,0.0,1601.13,1,2024-08,2024-08
+LN0047508,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,3850.15,0.0,3850.15,3,2025-04,2025-06
+LN0047548,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,2741.72,0.0,2741.72,3,2025-04,2025-06
+LN0047602,PL-FIX,Attributed,C-08,C-08 accrual after closure,,1759.47,0.0,1759.47,1,2024-08,2024-08
+LN0047623,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,8187.95,-750.0,7437.95,14,2024-05,2025-06
+LN0047783,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-91.65,0.0,-91.65,14,2024-05,2025-06
+LN0047808,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,433.88,0.0,433.88,14,2024-05,2025-06
+LN0047849,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-121.03,0.0,-121.03,13,2024-05,2025-05
+LN0047920,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,3794.74,0.0,3794.74,5,2025-02,2025-06
+LN0048029,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,7978.09,-750.0,7228.09,4,2025-03,2025-06
+LN0048068,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,1645.89,0.0,1645.89,5,2025-02,2025-06
+LN0048141,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,11535.0,0.0,11535.0,13,2024-06,2025-06
+LN0048157,MSME-FLT,Attributed,C-08,C-08 accrual after closure,,15161.69,0.0,15161.69,1,2024-10,2024-10
+LN0048194,PL-FIX,Attributed,C-08,C-08 accrual after closure,,113.6,0.0,113.6,1,2025-03,2025-03
+LN0048211,GL-FIX,Attributed,C-08,C-08 accrual after closure,,178.42,0.0,178.42,1,2024-11,2024-11
+LN0048261,HL-MCLR,Attributed,C-08,C-08 accrual after closure,,19566.19,0.0,19566.19,1,2024-12,2024-12
+LN0048307,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,4240.92,-1000.0,3240.92,12,2024-07,2025-06
+LN0048348,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-50.79,0.0,-50.79,14,2024-05,2025-06
+LN0048386,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,9505.75,0.0,9505.75,13,2024-06,2025-06
+LN0048638,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,289.38,0.0,289.38,14,2024-05,2025-06
+LN0048663,HL-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,7951.14,-750.0,7201.14,3,2025-04,2025-06
+LN0048689,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-172.38,0.0,-172.38,14,2024-05,2025-06
+LN0048787,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,5177.88,0.0,5177.88,14,2024-05,2025-06
+LN0048799,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,247.45,0.0,247.45,14,2024-05,2025-06
+LN0048809,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-245.99,0.0,-245.99,13,2024-05,2025-05
+LN0048819,GL-FIX,Attributed,C-08,C-08 accrual after closure,,2848.22,0.0,2848.22,1,2024-11,2024-11
+LN0048845,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-875.84,0.0,-875.84,14,2024-05,2025-06
+LN0048856,HL-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,-8.04,0.0,-8.04,12,2024-06,2025-06
+LN0048870,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,12.47,0.0,12.47,8,2024-08,2025-06
+LN0048892,HL-FLT,Attributed,C-04,C-04 moratorium interest compounded,,1459.52,0.0,1459.52,12,2024-07,2025-06
+LN0048981,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,504.92,0.0,504.92,12,2024-07,2025-06
+LN0048988,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,66.09,0.0,66.09,13,2024-06,2025-06
+LN0048989,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,5.19,0.0,5.19,4,2025-01,2025-06
+LN0049053,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,288.7,0.0,288.7,13,2024-06,2025-06
+LN0049069,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),0.5,3182.11,0.0,3182.11,13,2024-06,2025-06
+LN0049149,MSME-FLT,Attributed,C-05,C-05 penal interest +2.0% on rate,,5981.72,-1000.0,4981.72,9,2024-10,2025-06
+LN0049171,HL-FLT,Attributed,C-05,C-05 penal charge capitalised,,31.06,0.0,31.06,6,2024-09,2025-02
+LN0049229,GL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,107.06,0.0,107.06,10,2024-06,2025-03
+LN0049292,PL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-1198.22,0.0,-1198.22,13,2024-06,2025-06
+LN0049316,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,613.87,0.0,613.87,13,2024-06,2025-06
+LN0049326,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.25,31718.04,0.0,31718.04,13,2024-06,2025-06
+LN0049394,GL-FIX,Attributed,C-08,C-08 accrual after closure,,351.91,0.0,351.91,1,2024-10,2024-10
+LN0049444,HL-MCLR,Attributed,C-01,C-01 wrong spread (implied),0.5,21192.41,0.0,21192.41,13,2024-06,2025-06
+LN0049500,PL-FIX,Attributed,C-06,C-06 daily rounding to 0dp,,20.5,0.0,20.5,13,2024-06,2025-06
+LN0049510,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,6.81,0.0,6.81,4,2024-08,2025-05
+LN0049552,PL-FIX,Attributed,C-05,C-05 penal charge capitalised,,4.57,0.0,4.57,2,2025-03,2025-04
+LN0049589,MSME-FLT,Attributed,C-02,C-02 reset one cycle late,,9965.1,0.0,9965.1,4,2025-03,2025-06
+LN0049592,MSME-FLT,Attributed,C-04,C-04 moratorium interest compounded,,488.47,0.0,488.47,12,2024-07,2025-06
+LN0049618,MSME-FLT,Attributed,C-05,C-05 penal charge capitalised,,19.91,0.0,19.91,3,2024-09,2024-11
+LN0049681,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,194.79,0.0,194.79,13,2024-06,2025-06
+LN0049684,MSME-FLT,Attributed,C-06,C-06 daily rounding to 0dp,,24.61,0.0,24.61,12,2024-06,2025-06
+LN0049739,GL-FIX,Attributed,C-01,C-01 wrong spread (implied),-0.25,-155.39,0.0,-155.39,13,2024-06,2025-06
+LN0049743,HL-FLT,Attributed,C-02,C-02 reset one cycle late,,4184.08,0.0,4184.08,4,2025-03,2025-06
+LN0049757,HL-MCLR,Attributed,C-06,C-06 daily rounding to 0dp,,11.47,0.0,11.47,12,2024-06,2025-06
+LN0049760,HL-MCLR,Attributed,C-04,C-04 moratorium interest compounded,,1887.59,0.0,1887.59,12,2024-07,2025-06
+LN0049768,MSME-FLT,Attributed,C-09,C-09 365-day basis in leap year,,276.78,0.0,276.78,13,2024-06,2025-06
+LN0049777,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-30.92,0.0,-30.92,13,2024-06,2025-06
+LN0049830,HL-FLT,Attributed,C-01,C-01 wrong spread (implied),0.5,9396.61,0.0,9396.61,5,2024-06,2024-10
+LN0049886,PL-FIX,Attributed,C-03,C-03 30E/360 day-count,,-171.26,0.0,-171.26,13,2024-06,2025-06

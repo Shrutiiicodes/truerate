@@ -1,0 +1,50 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/generated/
+data/ground_truth/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing and tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Excel / LibreOffice lock files
+~$*.xlsx
+.~lock.*#
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment (e.g. ITAC_DB_URL pointing at PostgreSQL)
+.env
+
+# Generated data (python run_all.py rebuilds all of it in ~70s)
+data/generated/*
+data/ground_truth/*
+!data/generated/.gitkeep
+!data/ground_truth/.gitkeep
+
+# Large intermediate engine outputs (regenerable)
+outputs/audit/*.parquet

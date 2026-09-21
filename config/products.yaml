@@ -1,0 +1,152 @@
+# Product master (client-side reference data, visible to the auditor).
+# Rates are in percent per annum. Dates are ISO (YYYY-MM-DD).
+
+observation:
+  window_start: 2021-01-01        # first billing month in scope
+  window_end: 2025-06-30          # last day observed (ledger runs through Jun-2025)
+  disbursal_start: 2021-01-01
+  disbursal_end: 2024-06-30
+
+portfolio:
+  n_loans: 50000
+  seed: 20250630
+
+# Rule applied to all products: penal charges are a fixed amount per missed
+# instalment, booked to a separate non-interest-bearing receivable.
+# RBI 'Fair Lending Practice - Penal Charges in Loan Accounts'
+# (DoR.MCS.REC.28/01.01.001/2023-24, 18-Aug-2023; timeline extended by
+# DoR.MCS.REC.61/01.01.001/2023-24, 29-Dec-2023): fresh loans from 01-Apr-2024;
+# existing loans switch over on the next review/renewal on or after 01-Apr-2024,
+# not later than 30-Jun-2024.
+penal_regime:
+  fresh_loans_from: 2024-04-01
+  existing_loans_switchover: 2024-07-01   # assumption: bank used the regulatory backstop
+  legacy_penal_rate_pct: 2.0              # legacy practice (penal interest), used only in fault/hypothesis logic
+
+products:
+  HL-FLT:
+    name: Home Loan - Repo-linked (EBLR)
+    rate_type: floating
+    benchmark: REPO
+    spread_history:                      # product spread over benchmark, applied on each loan's reset date
+      - {effective_from: 2020-01-01, spread_pct: 2.75}
+      - {effective_from: 2023-10-01, spread_pct: 2.50}   # product master change (drives C-07)
+    fixed_rate_pct: null
+    day_count_convention: ACT/365F
+    reset_frequency_months: 3
+    repayment_type: emi
+    moratorium_allowed: true
+    penal_charge_rule: {type: fixed_per_missed_instalment, amount_inr: 750}
+    rounding_rule: {decimals: 2, frequency: per_period, method: half_up}
+    generation:
+      share: 0.30
+      principal_median_inr: 3500000
+      principal_sigma: 0.55
+      principal_min_inr: 800000
+      principal_max_inr: 20000000
+      tenure_months: [180, 240, 300]
+      risk_premium_pct: [0.00, 0.75]
+      moratorium_share: 0.06
+      moratorium_months: [3, 6]
+
+  HL-MCLR:
+    name: Home Loan - 1Y MCLR-linked
+    rate_type: floating
+    benchmark: MCLR_1Y
+    spread_history:
+      - {effective_from: 2020-01-01, spread_pct: 0.40}
+    fixed_rate_pct: null
+    day_count_convention: ACT/365F
+    reset_frequency_months: 12
+    repayment_type: emi
+    moratorium_allowed: true
+    penal_charge_rule: {type: fixed_per_missed_instalment, amount_inr: 750}
+    rounding_rule: {decimals: 2, frequency: per_period, method: half_up}
+    generation:
+      share: 0.12
+      principal_median_inr: 3000000
+      principal_sigma: 0.55
+      principal_min_inr: 800000
+      principal_max_inr: 15000000
+      tenure_months: [180, 240]
+      risk_premium_pct: [0.00, 0.50]
+      moratorium_share: 0.06
+      moratorium_months: [3, 6]
+
+  PL-FIX:
+    name: Personal Loan - Fixed rate
+    rate_type: fixed
+    benchmark: NONE
+    spread_history: []
+    fixed_rate_pct: 10.75                # card rate; loan rate = card rate + risk premium, locked at disbursal
+    day_count_convention: ACT/365F
+    reset_frequency_months: 0
+    repayment_type: emi
+    moratorium_allowed: false
+    penal_charge_rule: {type: fixed_per_missed_instalment, amount_inr: 500}
+    rounding_rule: {decimals: 2, frequency: per_period, method: half_up}
+    generation:
+      share: 0.25
+      principal_median_inr: 400000
+      principal_sigma: 0.6
+      principal_min_inr: 50000
+      principal_max_inr: 2500000
+      tenure_months: [12, 24, 36, 48, 60]
+      risk_premium_pct: [0.00, 5.00]
+      moratorium_share: 0.0
+      moratorium_months: [0, 0]
+
+  MSME-FLT:
+    name: MSME Term Loan - Repo-linked (EBLR)
+    rate_type: floating
+    benchmark: REPO
+    spread_history:
+      - {effective_from: 2020-01-01, spread_pct: 3.50}
+    fixed_rate_pct: null
+    day_count_convention: ACT/ACT        # ISDA-style: days in the period / days in that calendar year
+    reset_frequency_months: 3
+    repayment_type: emi
+    moratorium_allowed: true
+    penal_charge_rule: {type: fixed_per_missed_instalment, amount_inr: 1000}
+    rounding_rule: {decimals: 2, frequency: per_period, method: half_up}
+    generation:
+      share: 0.15
+      principal_median_inr: 2000000
+      principal_sigma: 0.8
+      principal_min_inr: 300000
+      principal_max_inr: 30000000
+      tenure_months: [36, 60, 84, 120]
+      risk_premium_pct: [0.00, 1.50]
+      moratorium_share: 0.08
+      moratorium_months: [3, 6]
+
+  GL-FIX:
+    name: Gold Loan - Fixed rate, bullet
+    rate_type: fixed
+    benchmark: NONE
+    spread_history: []
+    fixed_rate_pct: 9.25
+    day_count_convention: ACT/365F
+    reset_frequency_months: 0
+    repayment_type: bullet               # interest and principal due at maturity
+    moratorium_allowed: false
+    penal_charge_rule: {type: fixed_per_missed_instalment, amount_inr: 0}
+    rounding_rule: {decimals: 2, frequency: per_period, method: half_up}
+    generation:
+      share: 0.18
+      principal_median_inr: 150000
+      principal_sigma: 0.7
+      principal_min_inr: 20000
+      principal_max_inr: 2000000
+      tenure_months: [6, 9, 12]
+      risk_premium_pct: [0.00, 2.50]
+      moratorium_share: 0.0
+      moratorium_months: [0, 0]
+
+# Behavioural assumptions for the transaction generator (facts, not rules).
+behaviour:
+  missed_emi_prob: {HL-FLT: 0.008, HL-MCLR: 0.008, PL-FIX: 0.025, MSME-FLT: 0.020, GL-FIX: 0.0}
+  catch_up_prob: 0.65                  # missed EMI paid with the next one
+  partial_prepay_share: {HL-FLT: 0.12, HL-MCLR: 0.10, PL-FIX: 0.08, MSME-FLT: 0.10, GL-FIX: 0.0}
+  partial_prepay_fraction: [0.05, 0.30]
+  full_prepay_share: {HL-FLT: 0.10, HL-MCLR: 0.10, PL-FIX: 0.18, MSME-FLT: 0.12, GL-FIX: 0.25}

@@ -1,0 +1,32 @@
+control_key,control_name,control_type,conclusion,deficiency_classification
+C-01,Rate application,Automated (ITAC),Deficient,Control deficiency (below clearly trivial; systematic)
+C-02,Reset timing,Automated (ITAC),Deficient,Significant deficiency (qualitative: regulatory / ITGC)
+C-03,Day-count convention,Automated (ITAC),Deficient,Control deficiency (below clearly trivial; systematic)
+C-04,Moratorium interest,Automated (ITAC),Deficient,Control deficiency (below clearly trivial; systematic)
+C-05,Penal charges,Automated (ITAC),Deficient,Significant deficiency (qualitative: regulatory / ITGC)
+C-06,Rounding,Automated (ITAC),Deficient,Control deficiency (below clearly trivial; systematic)
+C-07,Product master change (ITGC dependency),ITGC-dependent automated control,Deficient,Significant deficiency (qualitative: regulatory / ITGC)
+C-08,Accrual stop on closure,Automated (ITAC),Deficient,Control deficiency (below clearly trivial; systematic)
+C-09,Leap-year handling,Automated (ITAC),Deficient,Control deficiency (below clearly trivial; systematic)
+C-01+C-02,Two controls: C-01+C-02,Combination,,
+C-01+C-05,Two controls: C-01+C-05,Combination,,
+C-01+C-06,Two controls: C-01+C-06,Combination,,
+C-01+C-08,Two controls: C-01+C-08,Combination,,
+C-01+C-09,Two controls: C-01+C-09,Combination,,
+C-02+C-04,Two controls: C-02+C-04,Combination,,
+C-02+C-05,Two controls: C-02+C-05,Combination,,
+C-02+C-07,Two controls: C-02+C-07,Combination,,
+C-02+C-09,Two controls: C-02+C-09,Combination,,
+C-03+C-05,Two controls: C-03+C-05,Combination,,
+C-03+C-06,Two controls: C-03+C-06,Combination,,
+C-03+C-08,Two controls: C-03+C-08,Combination,,
+C-04+C-06,Two controls: C-04+C-06,Combination,,
+C-04+C-08,Two controls: C-04+C-08,Combination,,
+C-04+C-09,Two controls: C-04+C-09,Combination,,
+C-05+C-06,Two controls: C-05+C-06,Combination,,
+C-05+C-07,Two controls: C-05+C-07,Combination,,
+C-05+C-09,Two controls: C-05+C-09,Combination,,
+C-06+C-07,Two controls: C-06+C-07,Combination,,
+C-06+C-09,Two controls: C-06+C-09,Combination,,
+C-08+C-09,Two controls: C-08+C-09,Combination,,
+UNEXPLAINED,Unexplained,Open item,,

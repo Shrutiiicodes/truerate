@@ -1,0 +1,66 @@
+# Risk and Control Matrix content (descriptive). Numbers are filled in by the pipeline.
+process: "Loans & Advances - Interest income recognition"
+controls:
+  C-01:
+    name: Rate application
+    risk: "Interest is computed at a rate other than the contracted rate (benchmark + spread + risk premium, or fixed rate), misstating interest income and overcharging/undercharging customers."
+    control: "The core banking system (CBS) derives the loan rate automatically from the product master and the sanctioned risk premium at account set-up."
+    type: Automated (ITAC)
+    procedure: "Full-population recalculation of interest for every loan-period from contract terms; exceptions re-performed under a solved 'implied spread' hypothesis."
+    recommendation: "Reconcile CBS account-level rates to sanction letters for the population flagged; add a system validation that the account rate equals the product-derived rate at set-up and on every rate change."
+  C-02:
+    name: Reset timing
+    risk: "Floating-rate loans are repriced late, so benchmark changes (e.g. RBI repo moves) reach borrowers after the contracted reset date - a regulatory issue under the EBLR framework and an income misstatement."
+    control: "CBS resets floating rates automatically on each loan's reset date using the benchmark in force on that date."
+    type: Automated (ITAC)
+    procedure: "Recalculated reset dates from disbursal anniversaries and reset frequency; benchmark looked up on the reset date from the RBI repo history; exceptions re-performed under a 'one cycle late' hypothesis."
+    recommendation: "Review the CBS batch job that applies resets (run date vs value date); re-price affected accounts and refund/recover differences; add a reset-exception report reviewed monthly."
+  C-03:
+    name: Day-count convention
+    risk: "The wrong day-count basis (e.g. 30/360 instead of Actual/365) misstates daily accrual."
+    control: "CBS applies the day-count convention defined per product in the product master."
+    type: Automated (ITAC)
+    procedure: "Recalculated accrual under each product's documented convention; exceptions re-performed under 30E/360."
+    recommendation: "Correct the day-count parameter for the affected account group (appears to be a legacy migration batch); test the parameter for all products."
+  C-04:
+    name: Moratorium interest
+    risk: "Interest during a moratorium is capitalised monthly (interest on interest), contrary to the product terms."
+    control: "CBS accrues moratorium interest as simple interest to a separate non-interest-bearing bucket."
+    type: Automated (ITAC)
+    procedure: "Recalculated moratorium accrual as simple interest; exceptions re-performed with monthly capitalisation."
+    recommendation: "Fix the moratorium accrual routine; quantify and refund compounded interest to affected borrowers."
+  C-05:
+    name: Penal charges
+    risk: "Penal charges are levied as penal interest (added to the rate) or capitalised, contrary to RBI's Fair Lending Practice - Penal Charges circular (18-Aug-2023; effective 01-Apr-2024, existing loans by 30-Jun-2024)."
+    control: "CBS books a fixed penal charge per bounced instalment to a separate receivable, with no interest on it."
+    type: Automated (ITAC)
+    procedure: "Recalculated penal charges for every bounced instalment from the transaction file; exceptions re-performed as capitalisation or as penal interest at 1-3% p.a."
+    recommendation: "Complete the penal-charge regime migration for residual accounts; report the breach to Compliance; refund excess charges."
+  C-06:
+    name: Rounding
+    risk: "Interest is rounded daily instead of once per billing period, creating systematic small differences."
+    control: "CBS rounds interest half-up to 2 decimals once per billing period."
+    type: Automated (ITAC)
+    procedure: "Recalculated with period-level rounding; exceptions re-performed with daily rounding at 0, 1 and 2 decimals."
+    recommendation: "Align the rounding parameter for the affected accounts; low monetary impact but indicates inconsistent configuration."
+  C-07:
+    name: Product master change (ITGC dependency)
+    risk: "A product master change (spread cut on HL-FLT from 01-Oct-2023) is not propagated to existing accounts - an ITGC change-management failure flowing into an application control."
+    control: "Approved product master changes are applied to all accounts at their next reset (ITAC relies on ITGC change management)."
+    type: ITGC-dependent automated control
+    procedure: "Recalculated rates using the product master spread history; exceptions re-performed with the pre-change spread retained."
+    recommendation: "Inspect the change ticket and post-implementation review for the 01-Oct-2023 change; extend ITGC testing to other parameter changes in the period; re-price affected accounts."
+  C-08:
+    name: Accrual stop on closure
+    risk: "Interest continues to accrue after a loan is fully prepaid or closed."
+    control: "CBS stops accrual on the value date of closure."
+    type: Automated (ITAC)
+    procedure: "Recalculated accrual up to the closure value date; exceptions re-performed with accrual to period end."
+    recommendation: "Fix value-dating of full prepayments; reverse post-closure interest and refund borrowers."
+  C-09:
+    name: Leap-year handling
+    risk: "ACT/ACT products use a 365-day year in leap years, overstating interest in 2024."
+    control: "CBS uses the actual number of days in the year (366 in leap years) for ACT/ACT products."
+    type: Automated (ITAC)
+    procedure: "Recalculated 2024 accruals on a 366-day basis; exceptions re-performed with a 365-day basis."
+    recommendation: "Correct the year-basis parameter; reverse 2024 over-accrual for affected MSME accounts."

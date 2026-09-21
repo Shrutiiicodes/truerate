@@ -1,0 +1,6 @@
+product_code,name,rate_type,benchmark,current_spread_pct,spread_history,fixed_rate_pct,day_count_convention,reset_frequency_months,repayment_type,moratorium_allowed,penal_charge_rule,rounding_rule
+HL-FLT,Home Loan - Repo-linked (EBLR),floating,REPO,2.5,2020-01-01:2.75; 2023-10-01:2.5,,ACT/365F,3,emi,True,fixed_per_missed_instalment: INR 750,2dp half_up per_period
+HL-MCLR,Home Loan - 1Y MCLR-linked,floating,MCLR_1Y,0.4,2020-01-01:0.4,,ACT/365F,12,emi,True,fixed_per_missed_instalment: INR 750,2dp half_up per_period
+PL-FIX,Personal Loan - Fixed rate,fixed,NONE,,,10.75,ACT/365F,0,emi,False,fixed_per_missed_instalment: INR 500,2dp half_up per_period
+MSME-FLT,MSME Term Loan - Repo-linked (EBLR),floating,REPO,3.5,2020-01-01:3.5,,ACT/ACT,3,emi,True,fixed_per_missed_instalment: INR 1000,2dp half_up per_period
+GL-FIX,"Gold Loan - Fixed rate, bullet",fixed,NONE,,,9.25,ACT/365F,0,bullet,False,fixed_per_missed_instalment: INR 0,2dp half_up per_period

@@ -1,0 +1,44 @@
+{
+  "timings": {
+    "load_seconds": 4.2,
+    "recalculation_seconds": 0.93,
+    "comparison_seconds": 0.37,
+    "attribution_seconds": 6.25,
+    "total_seconds": 12.3
+  },
+  "completeness": {
+    "loans_in_master_file": 50000,
+    "loans_in_system_ledger": 50000,
+    "loans_in_transactions": 50000,
+    "system_ledger_rows": 1296378,
+    "expected_loan_periods": 1296378,
+    "ledger_rows_for_unknown_loans": 0,
+    "rows_missing_in_system": 0,
+    "rows_extra_in_system": 0,
+    "disbursed_principal_master_inr": 110630984000.0,
+    "disbursed_principal_transactions_inr": 110630984000.0
+  },
+  "population_differences": {
+    "total_expected_interest_inr": 24040050365.160004,
+    "total_system_interest_inr": 24045305470.510002,
+    "total_interest_difference_inr": 5255105.350000001,
+    "total_penal_difference_inr": -62000.0
+  },
+  "tolerance": {
+    "absolute_inr": 1.0,
+    "relative": 0.0001,
+    "metrics": [
+      "interest",
+      "penal_charge",
+      "closing_principal",
+      "closing_balance"
+    ]
+  },
+  "exception_rows": 71838,
+  "exception_loan_periods": 27458,
+  "exception_loans": 1416,
+  "attribution_status": {
+    "Attributed": 1415,
+    "Unexplained": 1
+  }
+}

@@ -1,0 +1,62 @@
+# Fault injection for the simulated core banking system (client side).
+# Each control gets `n_loans` loans drawn from its eligible population
+# (single-fault pass, disjoint), then `double_faults` loans receive a second
+# fault from a different control. Target: ~2-4% of the portfolio.
+seed: 7719
+double_faults: 45
+
+controls:
+  C-01:
+    fault: wrong_spread
+    description: Wrong spread / rate applied at loan set-up
+    n_loans: 180
+    eligible: all
+    params: {rate_offset_pct_choices: [0.10, 0.25, 0.50, -0.25]}
+  C-02:
+    fault: reset_lag
+    description: Rate reset applied one reset cycle late
+    n_loans: 170
+    eligible: floating_with_reset
+    params: {lag_cycles: 1}
+  C-03:
+    fault: daycount_30_360
+    description: 30E/360 used instead of product convention
+    n_loans: 180
+    eligible: {product: PL-FIX}
+    params: {convention: 30E/360}
+  C-04:
+    fault: moratorium_compounding
+    description: Moratorium interest capitalised monthly (interest on interest)
+    n_loans: 140
+    eligible: has_moratorium
+    params: {}
+  C-05:
+    fault: penal_legacy
+    description: Penal charge capitalised into principal or charged as penal interest
+    n_loans: 150
+    eligible: missed_after_switchover
+    params: {modes: [capitalise, add_to_rate], penal_rate_pct: 2.0}
+  C-06:
+    fault: daily_rounding
+    description: Interest rounded daily instead of once per billing period
+    n_loans: 160
+    eligible: all
+    params: {daily_decimals: 0}
+  C-07:
+    fault: stale_spread
+    description: Existing loans kept the pre-change product spread after the product master update
+    n_loans: 150
+    eligible: stale_spread_candidates
+    params: {product: HL-FLT, change_date: 2023-10-01}
+  C-08:
+    fault: accrual_after_closure
+    description: Interest keeps accruing to period end after full prepayment
+    n_loans: 150
+    eligible: full_prepaid
+    params: {}
+  C-09:
+    fault: leap_year_365
+    description: 365-day denominator used in leap years on ACT/ACT products
+    n_loans: 150
+    eligible: actact_active_in_leap_year
+    params: {}

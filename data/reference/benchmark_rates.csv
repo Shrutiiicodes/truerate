@@ -1,0 +1,21 @@
+benchmark,effective_date,rate_pct,source
+REPO,2020-03-27,4.4,"Off-cycle MPC, 27-Mar-2020 (context row; pre-window)"
+REPO,2020-05-22,4.0,"Off-cycle MPC, 22-May-2020"
+REPO,2022-05-04,4.4,"Off-cycle MPC, 04-May-2022"
+REPO,2022-06-08,4.9,"MPC, 08-Jun-2022"
+REPO,2022-08-05,5.4,"MPC, 05-Aug-2022"
+REPO,2022-09-30,5.9,"MPC, 30-Sep-2022"
+REPO,2022-12-07,6.25,"MPC, 07-Dec-2022"
+REPO,2023-02-08,6.5,"MPC, 08-Feb-2023"
+REPO,2025-02-07,6.25,"MPC, 07-Feb-2025"
+REPO,2025-04-09,6.0,"MPC, 09-Apr-2025"
+REPO,2025-06-06,5.5,"MPC, 06-Jun-2025"
+MCLR_1Y,2020-07-01,7.25,SYNTHETIC - lagged/damped repo proxy
+MCLR_1Y,2020-09-01,7.0,SYNTHETIC - lagged/damped repo proxy
+MCLR_1Y,2022-09-01,7.25,SYNTHETIC - lagged/damped repo proxy
+MCLR_1Y,2022-10-01,7.6,SYNTHETIC - lagged/damped repo proxy
+MCLR_1Y,2022-12-01,7.9,SYNTHETIC - lagged/damped repo proxy
+MCLR_1Y,2023-01-01,8.25,SYNTHETIC - lagged/damped repo proxy
+MCLR_1Y,2023-04-01,8.45,SYNTHETIC - lagged/damped repo proxy
+MCLR_1Y,2023-06-01,8.6,SYNTHETIC - lagged/damped repo proxy
+MCLR_1Y,2025-06-01,8.45,SYNTHETIC - lagged/damped repo proxy

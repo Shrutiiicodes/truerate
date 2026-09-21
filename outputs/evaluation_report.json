@@ -1,0 +1,204 @@
+{
+  "population": {
+    "loans": 50000,
+    "loan_periods": 1296378,
+    "faulty_loans_injected": 1430,
+    "faulty_loans_with_numeric_effect": 1418,
+    "affected_loan_periods_any_change": 28402,
+    "affected_loan_periods_above_tolerance": 27458
+  },
+  "detection_vs_any_change": {
+    "loan_level": {
+      "tp": 1416,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.9986
+    },
+    "loan_period_level": {
+      "tp": 27458,
+      "fp": 0,
+      "fn": 944,
+      "precision": 1.0,
+      "recall": 0.9668
+    }
+  },
+  "detection_vs_above_tolerance_changes": {
+    "loan_level": {
+      "tp": 1416,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "loan_period_level": {
+      "tp": 27458,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "attribution": {
+    "detected_true_faulty_loans": 1416,
+    "exact_match_accuracy": 0.9979,
+    "single_fault_accuracy": 1.0,
+    "double_fault_accuracy": 0.9333,
+    "status_counts": {
+      "Attributed": 1415,
+      "Unexplained": 1
+    },
+    "ambiguous_share": 0.0,
+    "unexplained_share": 0.0007
+  },
+  "misses_explained": [
+    {
+      "loan_id": "LN0015206",
+      "product": "HL-FLT",
+      "status": "Attributed",
+      "true": "C-02+C-08",
+      "attributed": "C-08",
+      "standalone_effects_inr": {
+        "C-02": 0.0,
+        "C-08": 6978.42
+      },
+      "explanation": "Attributed to C-08 only. The other injected fault (C-02) changed no figure by more than the tolerance on its own (max standalone effect INR 0.00); e.g. a reset lag has no effect when the benchmark did not move between the two reset dates. No recalculation-based test can observe a fault that leaves the numbers unchanged."
+    },
+    {
+      "loan_id": "LN0039154",
+      "product": "GL-FIX",
+      "status": "Unexplained",
+      "true": "C-01+C-08",
+      "attributed": "UNEXPLAINED",
+      "standalone_effects_inr": {
+        "C-01": 3.5,
+        "C-08": 350.14
+      },
+      "explanation": "Two faults interact inside the same billing period(s). The pair search solves the implied spread on top of the other hypothesis, but with too few periods the two effects are not separable, so no candidate reproduces the system figures within tolerance. Correctly left for manual follow-up."
+    },
+    {
+      "loan_id": "LN0040092",
+      "product": "HL-MCLR",
+      "status": "Attributed",
+      "true": "C-02+C-04",
+      "attributed": "C-04",
+      "standalone_effects_inr": {
+        "C-02": 0.0,
+        "C-04": 7296.01
+      },
+      "explanation": "Attributed to C-04 only. The other injected fault (C-02) changed no figure by more than the tolerance on its own (max standalone effect INR 0.00); e.g. a reset lag has no effect when the benchmark did not move between the two reset dates. No recalculation-based test can observe a fault that leaves the numbers unchanged."
+    }
+  ],
+  "missed_loans": [
+    {
+      "loan_id": "LN0023738",
+      "true": "C-05",
+      "metric": "interest",
+      "period": "2024-09",
+      "largest_change_inr": 5.95,
+      "tolerance_inr": 7.59
+    },
+    {
+      "loan_id": "LN0031165",
+      "true": "C-06",
+      "metric": "closing_principal",
+      "period": "2023-04",
+      "largest_change_inr": 0.79,
+      "tolerance_inr": 1.0
+    }
+  ],
+  "tolerance_sensitivity": [
+    {
+      "abs_tolerance_inr": 0.01,
+      "loan_precision": 1.0,
+      "loan_recall": 0.9993,
+      "lp_precision": 1.0,
+      "lp_recall": 0.9686,
+      "false_positive_loan_periods": 0
+    },
+    {
+      "abs_tolerance_inr": 0.1,
+      "loan_precision": 1.0,
+      "loan_recall": 0.9993,
+      "lp_precision": 1.0,
+      "lp_recall": 0.9686,
+      "false_positive_loan_periods": 0
+    },
+    {
+      "abs_tolerance_inr": 0.5,
+      "loan_precision": 1.0,
+      "loan_recall": 0.9993,
+      "lp_precision": 1.0,
+      "lp_recall": 0.9681,
+      "false_positive_loan_periods": 0
+    },
+    {
+      "abs_tolerance_inr": 1.0,
+      "loan_precision": 1.0,
+      "loan_recall": 0.9986,
+      "lp_precision": 1.0,
+      "lp_recall": 0.9668,
+      "false_positive_loan_periods": 0
+    },
+    {
+      "abs_tolerance_inr": 5.0,
+      "loan_precision": 1.0,
+      "loan_recall": 0.9972,
+      "lp_precision": 1.0,
+      "lp_recall": 0.941,
+      "false_positive_loan_periods": 0
+    },
+    {
+      "abs_tolerance_inr": 25.0,
+      "loan_precision": 1.0,
+      "loan_recall": 0.9288,
+      "lp_precision": 1.0,
+      "lp_recall": 0.8427,
+      "false_positive_loan_periods": 0
+    },
+    {
+      "abs_tolerance_inr": 100.0,
+      "loan_precision": 1.0,
+      "loan_recall": 0.8766,
+      "lp_precision": 1.0,
+      "lp_recall": 0.7347,
+      "false_positive_loan_periods": 0
+    }
+  ],
+  "misstatement": {
+    "injected_net_income_effect_inr": 5193105.35,
+    "injected_gross_interest_error_inr": 11957407.49,
+    "detected_net_income_effect_inr": 5193098.17,
+    "detected_share_of_injected_net": 1.0,
+    "injected_by_control_single_fault_loans": {
+      "C-01": 1821879.05,
+      "C-02": -1976911.03,
+      "C-03": -19356.59,
+      "C-04": 1784826.88,
+      "C-05": 187649.64,
+      "C-06": -303.52,
+      "C-07": 2320686.11,
+      "C-08": 748734.49,
+      "C-09": 83855.2
+    },
+    "attributed_by_control": {
+      "C-01": 1877768.54,
+      "C-02": -2032037.51,
+      "C-03": -18148.34,
+      "C-04": 1825469.65,
+      "C-05": 211296.56,
+      "C-06": -440.45,
+      "C-07": 2431337.39,
+      "C-08": 804810.52,
+      "C-09": 92685.06,
+      "UNEXPLAINED": 356.75
+    }
+  },
+  "runtime_seconds": {
+    "load_seconds": 1.87,
+    "recalculation_seconds": 0.82,
+    "comparison_seconds": 0.31,
+    "attribution_seconds": 3.82,
+    "total_seconds": 7.22
+  }
+}

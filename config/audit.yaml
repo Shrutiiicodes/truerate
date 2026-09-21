@@ -1,0 +1,34 @@
+# Auditor settings. Nothing here may point at ground truth.
+engagement:
+  entity: "Synthetic Bank Ltd (illustrative)"
+  subject: "ITAC - Loan interest computation (core banking system)"
+  period_label: "Observation window Jan-2021 to Jun-2025"
+  prepared_by: "<Candidate name>, Associate - IT Data & Analytics"
+  reviewed_by: "<Reviewer>, Manager"
+  workpaper_ref: "ITAC-INT-01"
+
+tolerance:
+  absolute_inr: 1.00        # exception if |diff| > max(absolute, relative x |expected|)
+  relative: 0.0001          # 0.01%
+  metrics: [interest, penal_charge, closing_principal, closing_balance]
+
+materiality:
+  # Illustrative allocation to this portfolio. In a real engagement overall
+  # materiality comes from the engagement team's planning memo (usually PBT-based).
+  basis: interest_income    # recalculated interest income for the financial year below
+  financial_year: {label: "FY2024-25", start: "2024-04", end: "2025-03"}
+  overall_pct_of_basis: 0.005
+  performance_pct_of_overall: 0.75
+  clearly_trivial_pct_of_overall: 0.05
+
+attribution:
+  rate_offset_round_pct: 0.05          # implied spread rounded to 5 bps
+  daily_rounding_decimals: [0, 1, 2]
+  penal_rate_pct_candidates: [1.0, 2.0, 3.0]
+  test_pairs: true
+
+deficiency_classification:
+  # quantitative trigger uses gross (absolute) impact; qualitative flags escalate regardless
+  qualitative_escalation: [C-02, C-05, C-07]   # EBLR reset timing, penal-charge circular, ITGC change management
+
+sensitivity_tolerances_inr: [0.01, 0.10, 0.50, 1.00, 5.00, 25.00, 100.00]
