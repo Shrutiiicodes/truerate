@@ -10,11 +10,14 @@ import data as D
 st.set_page_config(page_title="ITAC - Loan interest testing", layout="wide")
 
 
-@st.cache_data
+@st.cache_data(show_spinner="Loading results (first run without published outputs regenerates them, ~70 s)...")
 def _load():
     D.ensure_data()
     return D.run_log(), D.control_summary(), D.attribution(), D.exceptions()
 
+
+loan_contract = st.cache_data(D.loan_contract)
+loan_drilldown = st.cache_data(D.loan_drilldown)
 
 log, cs, att, exc = _load()
 page = st.sidebar.radio("View", ["Overview", "Risk & Control Matrix", "Exceptions", "Loan drill-down", "Evaluation"])
@@ -43,8 +46,9 @@ if page == "Overview":
 
 elif page == "Risk & Control Matrix":
     st.title("Risk & Control Matrix")
-    ctrl = st.selectbox("Control", cs["control_id"] + " - " + cs["control_name"])
-    row = cs[cs["control_id"] == ctrl[:4]].iloc[0]
+    names = dict(zip(cs["control_id"], cs["control_name"]))
+    ctrl = st.selectbox("Control", list(names), format_func=lambda c: f"{c} - {names[c]}")
+    row = cs[cs["control_id"] == ctrl].iloc[0]
     for label, key in [("Risk", "risk"), ("Control", "control_description"), ("Type", "control_type"),
                        ("Test procedure", "test_procedure"), ("Population", "population_description"),
                        ("Recommendation", "recommendation")]:
@@ -82,7 +86,7 @@ elif page == "Loan drill-down":
     loan = st.selectbox("Exception loan (sorted by rupee impact)", default)
     typed = st.text_input("...or type any loan ID", "")
     loan = typed.strip() or loan
-    info = D.loan_contract(loan)
+    info = loan_contract(loan)
     if not info:
         st.error("Loan not found")
     else:
@@ -95,7 +99,10 @@ elif page == "Loan drill-down":
                     f"Hypothesis: {r['matching_hypotheses'] if pd.notna(r['matching_hypotheses']) else '-'}")
         else:
             st.success("No exceptions on this loan.")
-        d = D.loan_drilldown(loan)
+        d = loan_drilldown(loan)
+        if d.empty:
+            st.warning("Period ledger not published for loans without exceptions. Run `python run_all.py` locally to drill into any loan.")
+            st.stop()
         metric = st.radio("Metric", ["interest", "closing_balance", "closing_principal", "penal_charge"], horizontal=True)
         st.line_chart(d.set_index("period")[[f"{metric}_expected", f"{metric}_system"]])
         st.bar_chart(d.set_index("period")[f"{metric}_diff"])

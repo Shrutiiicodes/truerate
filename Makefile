@@ -2,7 +2,7 @@
 all:
 	python run_all.py
 install:
-	pip install -r requirements.txt
+	pip install -r requirements-dev.txt
 test:
 	python -m pytest -q tests
 app:

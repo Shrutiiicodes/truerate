@@ -41,7 +41,8 @@ def main() -> dict:
           f"{int((~np.isnan(exp['interest'])).sum()):,} loan-periods in {timings['recalculation_seconds']}s")
 
     t2 = time.time()
-    exc = exceptions_table(pop, exp, sys, tol["absolute_inr"], tol["relative"])
+    pr = tol.get("penal_receivable_absolute_only", False)
+    exc = exceptions_table(pop, exp, sys, tol["absolute_inr"], tol["relative"], pr)
     timings["comparison_seconds"] = round(time.time() - t2, 2)
 
     # completeness / population reconciliation
@@ -65,7 +66,7 @@ def main() -> dict:
     idx = np.nonzero(np.isin(pop.loan_id, exc_loans))[0]
     sub = pop.take(idx)
     subsys = {k: v[idx] for k, v in sys.items() if isinstance(v, np.ndarray)}
-    att, base, single_ledgers = attribute(sub, subsys, tol["absolute_inr"], tol["relative"], cfg["attribution"])
+    att, base, single_ledgers = attribute(sub, subsys, tol["absolute_inr"], tol["relative"], cfg["attribution"], pr)
     timings["attribution_seconds"] = round(time.time() - t3, 2)
 
     # rupee impact per loan (system - expected, all periods of the loan)
@@ -113,7 +114,11 @@ def main() -> dict:
     }
     timings["total_seconds"] = round(time.time() - t0, 2)
 
-    expected_long(pop, exp).to_parquet(AUDIT_OUT / "expected_ledger.parquet", index=False)
+    exp_long = expected_long(pop, exp)
+    exp_long.to_parquet(AUDIT_OUT / "expected_ledger.parquet", index=False)
+    # slim expected-vs-system ledgers for exception loans only: what the app drill-down ships with
+    key, keep = ["loan_id", "period"], lambda d: d[d["loan_id"].isin(exc_loans)]
+    keep(exp_long)[key + METRICS].merge(keep(ledger)[key + METRICS], on=key, how="outer", suffixes=("_expected", "_system"))         .to_parquet(AUDIT_OUT / "exception_loan_ledgers.parquet", index=False, compression="zstd")
     exc.to_parquet(AUDIT_OUT / "exceptions.parquet", index=False)
     exc.to_csv(AUDIT_OUT / "exceptions.csv", index=False)
     att.to_csv(AUDIT_OUT / "exception_loans_attribution.csv", index=False)

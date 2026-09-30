@@ -1,10 +1,10 @@
 {
   "timings": {
-    "load_seconds": 5.25,
-    "recalculation_seconds": 1.19,
-    "comparison_seconds": 0.55,
-    "attribution_seconds": 8.0,
-    "total_seconds": 15.73
+    "load_seconds": 6.1,
+    "recalculation_seconds": 1.95,
+    "comparison_seconds": 0.79,
+    "attribution_seconds": 13.42,
+    "total_seconds": 23.46
   },
   "completeness": {
     "loans_in_master_file": 50000,
@@ -32,7 +32,8 @@
       "penal_charge",
       "closing_principal",
       "closing_balance"
-    ]
+    ],
+    "penal_receivable_absolute_only": false
   },
   "exception_rows": 71838,
   "exception_loan_periods": 27458,

@@ -165,6 +165,26 @@
       "false_positive_loan_periods": 0
     }
   ],
+  "penal_receivable_check": {
+    "enabled_in_audit_run": false,
+    "loan_level": {
+      "tp": 1417,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9993
+    },
+    "loan_period_level": {
+      "tp": 27522,
+      "fp": 0,
+      "fn": 880,
+      "precision": 1.0,
+      "recall": 0.969
+    },
+    "additional_loans_flagged": [
+      "LN0023738"
+    ]
+  },
   "misstatement": {
     "injected_net_income_effect_inr": 5193105.35,
     "injected_gross_interest_error_inr": 11957407.49,
@@ -195,10 +215,10 @@
     }
   },
   "runtime_seconds": {
-    "load_seconds": 5.25,
-    "recalculation_seconds": 1.19,
-    "comparison_seconds": 0.55,
-    "attribution_seconds": 8.0,
-    "total_seconds": 15.73
+    "load_seconds": 6.1,
+    "recalculation_seconds": 1.95,
+    "comparison_seconds": 0.79,
+    "attribution_seconds": 13.42,
+    "total_seconds": 23.46
   }
 }
