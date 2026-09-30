@@ -10,23 +10,22 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 OUT = ROOT / "outputs"
 GEN = ROOT / "data" / "generated"
-
-
-_CHECKED = False
+SLIM = OUT / "audit" / "exception_loan_ledgers.parquet"
+FULL_EXPECTED = OUT / "audit" / "expected_ledger.parquet"
+FULL_SYSTEM = GEN / "system_interest_ledger.parquet"
+METRICS = ["interest", "penal_charge", "closing_principal", "closing_balance"]
 
 
 def ensure_data():
-    global _CHECKED
-    if _CHECKED:
-        return
+    """Run the whole pipeline (~70 s) if the published outputs the app needs are missing.
+    The caller caches this, so it runs at most once per process."""
     required_files = [
         OUT / "audit" / "run_log.json",
         OUT / "audit" / "control_summary.csv",
         OUT / "audit" / "exception_loans_attribution.csv",
         OUT / "audit" / "exceptions.parquet",
-        OUT / "audit" / "expected_ledger.parquet",
+        SLIM,
         GEN / "loans.parquet",
-        GEN / "system_interest_ledger.parquet",
     ]
     if any(not p.exists() for p in required_files):
         from src.generator.run import main as generate
@@ -39,11 +38,9 @@ def ensure_data():
         audit()
         report()
         evaluate()
-    _CHECKED = True
 
 
 def run_log() -> dict:
-    ensure_data()
     return json.loads((OUT / "audit" / "run_log.json").read_text(encoding="utf-8"))
 
 
@@ -64,12 +61,14 @@ def exceptions() -> pd.DataFrame:
 
 
 def loan_drilldown(loan_id: str) -> pd.DataFrame:
-    """Expected vs system per period for one loan."""
-    exp = pd.read_parquet(OUT / "audit" / "expected_ledger.parquet", filters=[("loan_id", "==", loan_id)])
-    sys_ = pd.read_parquet(GEN / "system_interest_ledger.parquet", filters=[("loan_id", "==", loan_id)])
-    cols = ["interest", "penal_charge", "closing_principal", "closing_balance"]
-    d = exp[["period"] + cols].merge(sys_[["period"] + cols], on="period", how="outer", suffixes=("_expected", "_system"))
-    for c in cols:
+    """Expected vs system per period for one loan. Exception loans come from the slim
+    published file; any other loan needs the full ledgers (local run only)."""
+    d = pd.read_parquet(SLIM, filters=[("loan_id", "==", loan_id)]).drop(columns="loan_id")
+    if d.empty and FULL_EXPECTED.exists() and FULL_SYSTEM.exists():
+        exp = pd.read_parquet(FULL_EXPECTED, filters=[("loan_id", "==", loan_id)])
+        sys_ = pd.read_parquet(FULL_SYSTEM, filters=[("loan_id", "==", loan_id)])
+        d = exp[["period"] + METRICS].merge(sys_[["period"] + METRICS], on="period", how="outer", suffixes=("_expected", "_system"))
+    for c in METRICS:
         d[f"{c}_diff"] = (d[f"{c}_system"] - d[f"{c}_expected"]).round(2)
     return d.sort_values("period").reset_index(drop=True)
 

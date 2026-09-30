@@ -56,6 +56,10 @@ Loan-period recall against 'any change' is below 100% by design: many affected p
 
 Both misses are tolerance effects, not recalculation errors. The C-06 case is a genuinely immaterial rounding drift. The C-05 case is a real weakness in the procedure design: capitalising a INR 750 penal charge moves closing principal by exactly INR 750, but on a INR 95.8 lakh home loan the relative leg of the tolerance (0.01% of balance ~ INR 958) is larger, and closing balance does not move at all because the charge is only reclassified from penal receivable to principal. Recommended change (not applied, to avoid tuning on ground truth): test the penal-receivable component separately with an absolute-only tolerance, since any capitalised penal charge is a regulatory breach regardless of size.
 
+### Penal-receivable check (`tolerance.penal_receivable_absolute_only` in audit.yaml)
+
+Enabled in this audit run: False. With the check on, loan-level precision 100.0%, recall 99.9% (FN 1, FP 0); loans it adds to the exceptions: LN0023738.
+
 
 ## Tolerance sensitivity
 
@@ -94,11 +98,11 @@ Net figures hide offsetting errors (C-01 includes negative offsets; C-02 lags cu
 
 ## Runtime
 
-`{'load_seconds': 5.25, 'recalculation_seconds': 1.19, 'comparison_seconds': 0.55, 'attribution_seconds': 8.0, 'total_seconds': 15.73}`
+`{'load_seconds': 6.1, 'recalculation_seconds': 1.95, 'comparison_seconds': 0.79, 'attribution_seconds': 13.42, 'total_seconds': 23.46}`
 
 ## Weaknesses to be honest about
 
-- Auditor and client share `src/common` (day-count, rounding, EMI, rate lookup). A bug there would be invisible to the test - the same risk as an auditor re-using the client's own calculation logic. Unit tests on `common` against hand-computed values mitigate but do not remove it.
+- Auditor and client share `src/common` (day-count, rounding, EMI, rate lookup). A bug there would be invisible to the comparison - the same risk as an auditor re-using the client's own calculation logic. Mitigated by unit tests against hand-computed values and by `tests/test_reference_recalc.py`, which checks the vectorised recalculation against a naive day-by-day Decimal implementation that shares no code with `src/common`.
 - The hypothesis library only contains fault types the auditor thought of. A novel fault would show as Unexplained - which is the correct audit outcome, but it means attribution accuracy here is an upper bound.
 - Synthetic data is too clean: zero false positives will not hold on a real core banking extract.
 - Faults with no numeric effect (e.g. a reset lag during a flat rate period) cannot be detected by any recalculation; they need a configuration review (ITGC / parameter testing).

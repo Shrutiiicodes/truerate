@@ -11,6 +11,11 @@ tolerance:
   absolute_inr: 1.00        # exception if |diff| > max(absolute, relative x |expected|)
   relative: 0.0001          # 0.01%
   metrics: [interest, penal_charge, closing_principal, closing_balance]
+  # Also test closing_balance - closing_principal (arrears + penal due) with the absolute
+  # tolerance only, so a capitalised penal charge cannot hide under the relative leg on a
+  # large loan. Off by default so headline metrics stay untuned; the evaluation report
+  # shows its effect either way.
+  penal_receivable_absolute_only: false
 
 materiality:
   # Illustrative allocation to this portfolio. In a real engagement overall

@@ -1,9 +1,3 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-data/generated/*.sqlite
-data/ground_truth/
-
 # Python
 __pycache__/
 *.py[cod]
@@ -46,5 +40,8 @@ data/ground_truth/*
 !data/generated/.gitkeep
 !data/ground_truth/.gitkeep
 
-# Large intermediate engine outputs (regenerable)
+# Large intermediate engine outputs (regenerable). The app ships with the slim
+# outputs/audit/exception_loan_ledgers.parquet instead.
 outputs/audit/*.parquet
+!outputs/audit/exceptions.parquet
+!outputs/audit/exception_loan_ledgers.parquet

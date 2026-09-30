@@ -148,6 +148,15 @@ def main() -> dict:
                      "lp_precision": d["loan_period_level"]["precision"], "lp_recall": d["loan_period_level"]["recall"],
                      "false_positive_loan_periods": d["loan_period_level"]["fp"]})
 
+    # ---- optional penal-receivable check: balance - principal tested with the absolute tolerance only
+    recv = lambda s: both[f"closing_balance_{s}"] - both[f"closing_principal_{s}"]
+    extra = both.loc[(recv("sys") - recv("exp")).abs() > tol["absolute_inr"], KEY]
+    lp_pr = pd.concat([exc_lp, extra]).drop_duplicates()
+    d_pr = detection(lp_pr, aff, truth_loans, set(lp_pr.loan_id))
+    pr_check = {"enabled_in_audit_run": bool(tol.get("penal_receivable_absolute_only", False)),
+                "loan_level": d_pr["loan_level"], "loan_period_level": d_pr["loan_period_level"],
+                "additional_loans_flagged": sorted(set(extra.loan_id) - pred_loans)}
+
     # ---- misstatement detected vs injected
     sc = system.merge(correct, on=KEY, suffixes=("_sys", "_ok"))
     injected_income = float((sc.interest_sys - sc.interest_ok).sum() + (sc.penal_charge_sys - sc.penal_charge_ok).sum())
@@ -177,6 +186,7 @@ def main() -> dict:
         "misses_explained": issues,
         "missed_loans": fn_rows,
         "tolerance_sensitivity": sens,
+        "penal_receivable_check": pr_check,
         "misstatement": {"injected_net_income_effect_inr": round(injected_income, 2),
                          "injected_gross_interest_error_inr": round(gross_injected, 2),
                          "detected_net_income_effect_inr": round(detected_income, 2),
@@ -258,7 +268,13 @@ def write_markdown(r, conf, tol):
           "tolerance (0.01% of balance ~ INR 958) is larger, and closing balance does not move at all because the "
           "charge is only reclassified from penal receivable to principal. Recommended change (not applied, to avoid "
           "tuning on ground truth): test the penal-receivable component separately with an absolute-only tolerance, "
-          "since any capitalised penal charge is a regulatory breach regardless of size.", ""]
+          "since any capitalised penal charge is a regulatory breach regardless of size.", "",
+          "### Penal-receivable check (`tolerance.penal_receivable_absolute_only` in audit.yaml)", "",
+          f"Enabled in this audit run: {r['penal_receivable_check']['enabled_in_audit_run']}. With the check on, "
+          f"loan-level precision {pct(r['penal_receivable_check']['loan_level']['precision'])}, "
+          f"recall {pct(r['penal_receivable_check']['loan_level']['recall'])} "
+          f"(FN {r['penal_receivable_check']['loan_level']['fn']}, FP {r['penal_receivable_check']['loan_level']['fp']}); "
+          f"loans it adds to the exceptions: {', '.join(r['penal_receivable_check']['additional_loans_flagged']) or 'none'}.", ""]
     L += ["", "## Tolerance sensitivity", "", "| Abs. tolerance (INR) | Loan precision | Loan recall | Loan-period precision | Loan-period recall | FP loan-periods |",
           "|---|---|---|---|---|---|"]
     for s in r["tolerance_sensitivity"]:
@@ -281,8 +297,9 @@ def write_markdown(r, conf, tol):
           "## Runtime", "", f"`{r['runtime_seconds']}`", "",
           "## Weaknesses to be honest about", "",
           "- Auditor and client share `src/common` (day-count, rounding, EMI, rate lookup). A bug there would be invisible to "
-          "the test - the same risk as an auditor re-using the client's own calculation logic. Unit tests on `common` "
-          "against hand-computed values mitigate but do not remove it.",
+          "the comparison - the same risk as an auditor re-using the client's own calculation logic. Mitigated by unit tests "
+          "against hand-computed values and by `tests/test_reference_recalc.py`, which checks the vectorised recalculation "
+          "against a naive day-by-day Decimal implementation that shares no code with `src/common`.",
           "- The hypothesis library only contains fault types the auditor thought of. A novel fault would show as "
           "Unexplained - which is the correct audit outcome, but it means attribution accuracy here is an upper bound.",
           "- Synthetic data is too clean: zero false positives will not hold on a real core banking extract.",

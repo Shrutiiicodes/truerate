@@ -49,7 +49,7 @@ def implied_offset(sys: dict, ref: dict, abs_tol: float, step: float) -> np.ndar
     return np.round(np.round(est / step) * step, 4)
 
 
-def attribute(pop, sys: dict, abs_tol: float, rel_tol: float, cfg_attr: dict):
+def attribute(pop, sys: dict, abs_tol: float, rel_tol: float, cfg_attr: dict, penal_receivable=False):
     """pop / sys are already restricted to exception loans."""
     step = cfg_attr["rate_offset_round_pct"]
     base = recalculate(pop, BASELINE)
@@ -58,16 +58,19 @@ def attribute(pop, sys: dict, abs_tol: float, rel_tol: float, cfg_attr: dict):
     matches = {}         # hypothesis name -> bool array
     ledgers = {}
     resolved = {}
+    offsets = {}         # hypothesis name -> per-loan implied C-01 offset (full length)
+    fits = lambda res, s: loans_matching(res, s, abs_tol, rel_tol, penal_receivable)
     for h in singles:
         if "C-01" in h.controls:
             off = implied_offset(sys, base, abs_tol, step)
             h2 = Hypothesis(h.name, h.controls, rate_offset=off)
             res = recalculate(pop, h2)
-            ok = loans_matching(res, sys, abs_tol, rel_tol) & (off != 0)
+            ok = fits(res, sys) & (off != 0)
+            offsets[h.name] = off
         else:
             h2 = h
             res = recalculate(pop, h)
-            ok = loans_matching(res, sys, abs_tol, rel_tol)
+            ok = fits(res, sys)
         matches[h.name] = ok; ledgers[h.name] = res; resolved[h.name] = h2
 
     single_ctrl = _controls_matched(matches, singles, n)
@@ -86,10 +89,12 @@ def attribute(pop, sys: dict, abs_tol: float, rel_tol: float, cfg_attr: dict):
                 off = implied_offset(subsys, ref, abs_tol, step)
                 combo = h2 + Hypothesis(h1.name, h1.controls, rate_offset=off)
                 valid = off != 0
+                full_off = np.zeros(n); full_off[idx] = off
+                offsets[f"{h1.name} + {h2.name}"] = full_off
             else:
                 combo = resolved[h1.name] + resolved[h2.name]
                 valid = np.ones(len(idx), bool)
-            ok = loans_matching(recalculate(sub, combo), subsys, abs_tol, rel_tol) & valid
+            ok = fits(recalculate(sub, combo), subsys) & valid
             full = np.zeros(n, bool); full[idx] = ok
             pair_matches[f"{h1.name} + {h2.name}"] = (full, tuple(sorted(set(h1.controls + h2.controls))))
 
@@ -108,10 +113,11 @@ def attribute(pop, sys: dict, abs_tol: float, rel_tol: float, cfg_attr: dict):
                 names, ctrls = p_names, p_sets
             else:
                 status, names, ctrls = "Unexplained", [], []
+        # offset solved by the hypothesis that actually matched (a pair re-solves it on top of the other leg)
+        c01 = next((k for k in names if k in offsets), None)
         rows.append({"loan_id": pop.loan_id[j], "product_code": pop.product[j], "status": status,
                      "control_ids": " | ".join(ctrls), "matching_hypotheses": " | ".join(names),
-                     "implied_rate_offset_pct": float(resolved[singles[0].name].rate_offset[j])
-                     if "C-01" in "".join(ctrls) else np.nan})
+                     "implied_rate_offset_pct": float(offsets[c01][j]) if c01 else np.nan})
     att = pd.DataFrame(rows)
     return att, base, ledgers
 
